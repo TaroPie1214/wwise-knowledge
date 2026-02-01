@@ -54,10 +54,13 @@ def build_split_map(split_dir: Path) -> dict:
                 with open(full_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                 
-                # Find ALL H1 titles (lines starting with single #)
+                # Find ALL H1, H2, and H3 titles
                 h1_titles = re.findall(r'^# (.+)$', content, re.MULTILINE)
+                h2_titles = re.findall(r'^## (.+)$', content, re.MULTILINE)
+                h3_titles = re.findall(r'^### (.+)$', content, re.MULTILINE)
                 
-                for title in h1_titles:
+                all_titles = h1_titles + h2_titles + h3_titles
+                for title in all_titles:
                     norm_title = normalize_title(title)
                     if norm_title and norm_title not in title_map:
                         title_map[norm_title] = rel_path_str
