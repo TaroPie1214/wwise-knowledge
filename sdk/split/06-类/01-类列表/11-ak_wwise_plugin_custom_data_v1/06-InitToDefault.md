@@ -1,0 +1,11 @@
+# InitToDefault
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_custom\_data\_v1](structak__wwise__plugin__custom__data__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_custom\_data\_v1](structak__wwise__plugin__custom__data__v1_ad74a9bfecbfb108a07060aedbe699466.html#ad74a9bfecbfb108a07060aedbe699466) | | [GetPluginData](structak__wwise__plugin__custom__data__v1_ae2a50eda33df6c0c7da86b967751cf40.html#ae2a50eda33df6c0c7da86b967751cf40) | | [InitFromInstance](structak__wwise__plugin__custom__data__v1_a08ee5fa4ca95daadaf1cffaadb60ca1e.html#a08ee5fa4ca95daadaf1cffaadb60ca1e) | | [InitFromWorkunit](structak__wwise__plugin__custom__data__v1_a495350302ff7bbd1c02d988668142445.html#a495350302ff7bbd1c02d988668142445) | | [InitToDefault](structak__wwise__plugin__custom__data__v1_aff4d18650d949fcc5e2cc4e18f6b573f.html#aff4d18650d949fcc5e2cc4e18f6b573f) | | [Instance](structak__wwise__plugin__custom__data__v1_af1603ab1092422cd732f495185ba71d3.html#af1603ab1092422cd732f495185ba71d3) | | [OnDelete](structak__wwise__plugin__custom__data__v1_a48aded0f100bf7db38b151aa88f3e56f.html#a48aded0f100bf7db38b151aa88f3e56f) | | [Save](structak__wwise__plugin__custom__data__v1_a8d0eb7c0dfdd6a74c1cec5a610a6a3c2.html#a8d0eb7c0dfdd6a74c1cec5a610a6a3c2) | | [◆](#aff4d18650d949fcc5e2cc4e18f6b573f)InitToDefault |  | | --- | | void(\* ak\_wwise\_plugin\_custom\_data\_v1::InitToDefault) (struct [ak\_wwise\_plugin\_custom\_data\_instance\_v1](structak__wwise__plugin__custom__data__instance__v1.html) \*in\_this) |  Initializes the plug-in's custom data to its default values.  This method is mutually exclusive with the other Init methods.  参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. |  在文件 [CustomData.h](_custom_data_8h_source.html) 第 [75](_custom_data_8h_source.html#l00075) 行定义.  被这些函数引用 [AK.Wwise::Plugin::V1::CustomData::Interface::Interface()](_custom_data_8h_source.html#l00227). |

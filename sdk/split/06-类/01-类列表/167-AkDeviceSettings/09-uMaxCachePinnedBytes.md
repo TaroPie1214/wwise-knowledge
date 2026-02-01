@@ -1,0 +1,11 @@
+# uMaxCachePinnedBytes
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkDeviceSettings](struct_ak_device_settings.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [bUseStreamCache](struct_ak_device_settings_aaa0e8dc2b18f827559aaf8672705dd49.html#aaa0e8dc2b18f827559aaf8672705dd49) | | [ePoolAttributes](struct_ak_device_settings_ac765faebf4d47270efbe33cc762192cb.html#ac765faebf4d47270efbe33cc762192cb) | | [fTargetAutoStmBufferLength](struct_ak_device_settings_af396c1626da7df1bbb6d9129e132b02f.html#af396c1626da7df1bbb6d9129e132b02f) | | [pIOMemory](struct_ak_device_settings_a3a99efb65d353954df652c007ac761c5.html#a3a99efb65d353954df652c007ac761c5) | | [threadProperties](struct_ak_device_settings_a66496eabd7bf4cd482f2ef9925e489c4.html#a66496eabd7bf4cd482f2ef9925e489c4) | | [uGranularity](struct_ak_device_settings_abd4879bfd150b9a2f898102e3815dbe2.html#abd4879bfd150b9a2f898102e3815dbe2) | | [uIOMemoryAlignment](struct_ak_device_settings_ae4d4ef1d88e6a43dd134845f18e26b42.html#ae4d4ef1d88e6a43dd134845f18e26b42) | | [uIOMemorySize](struct_ak_device_settings_a75893592924a59881fe2cbca4e4ddd04.html#a75893592924a59881fe2cbca4e4ddd04) | | [uMaxCachePinnedBytes](struct_ak_device_settings_a08d0804974f70f6d8b7b0733ad4109dc.html#a08d0804974f70f6d8b7b0733ad4109dc) | | [uMaxConcurrentIO](struct_ak_device_settings_af49f8b3af816b58296e952b20de2d7a3.html#af49f8b3af816b58296e952b20de2d7a3) | | [◆](#a08d0804974f70f6d8b7b0733ad4109dc)uMaxCachePinnedBytes |  | | --- | | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) AkDeviceSettings::uMaxCachePinnedBytes |  Maximum number of bytes that can be "pinned" using [AK::SoundEngine::PinEventInStreamCache()](namespace_a_k_1_1_sound_engine_ae98b64113d2b9bd2e63adef8cee96805.html#ae98b64113d2b9bd2e63adef8cee96805) or [AK::IAkStreamMgr::PinFileInCache()](class_a_k_1_1_i_ak_stream_mgr_a702436773924b830729f94d609c62fc2.html#a702436773924b830729f94d609c62fc2)  在文件 [AkStreamMgrModule.h](_ak_stream_mgr_module_8h_source.html) 第 [71](_ak_stream_mgr_module_8h_source.html#l00071) 行定义. |

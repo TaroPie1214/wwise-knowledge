@@ -1,0 +1,15 @@
+# ToInterfaceClass
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator.html)
+- [InterfaceInfo](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetInterfaceVersion](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a0be33c153ec912aeaa11a2a385e7b4d9.html#a0be33c153ec912aeaa11a2a385e7b4d9) | | [GetPlaceholderPointer](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_aeda97cbd26a5f9dcf6b1c94b8baaee57.html#aeda97cbd26a5f9dcf6b1c94b8baaee57) | | [GetUsedInterfaceVersions](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a8e2122aaece25b9eaea8f0afd4622ba9.html#a8e2122aaece25b9eaea8f0afd4622ba9) | | [InterfaceClass](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_acdbef4d83b4072eaa4acc434070aa062.html#acdbef4d83b4072eaa4acc434070aa062) | | [ProvidedInterfaceVersions](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a64b65097e14c9da8d5b948a4f63c51d6.html#a64b65097e14c9da8d5b948a4f63c51d6) | | [RequestedInterfaceVersions](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a9ae888dd25d9f743693320af0e98ea39.html#a9ae888dd25d9f743693320af0e98ea39) | | [ToInterfaceClass](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a26d150cef6dc6ef026919890aed3fbb0.html#a26d150cef6dc6ef026919890aed3fbb0) | | [UsedInterfaceVersions](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a244040ab9417b3c48f51ca6a8c5fb41b.html#a244040ab9417b3c48f51ca6a8c5fb41b) | | [◆](#a26d150cef6dc6ef026919890aed3fbb0)ToInterfaceClass template<typename PluginT >  template<InterfaceType in\_interfaceType>   |  | | --- | | using [AK.Wwise::Plugin::PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator.html)< PluginT >::[InterfaceInfo](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info.html)< in\_interfaceType >::[ToInterfaceClass](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_a26d150cef6dc6ef026919890aed3fbb0.html#a26d150cef6dc6ef026919890aed3fbb0) = [ToInterfaceClassImpl](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_1_1_interface_info_1_1_to_interface_class_impl.html)<k\_has> |  Casts the plug-in class to the requested interface class.  在文件 [PluginInfoGenerator.h](_plugin_info_generator_8h_source.html) 第 [521](_plugin_info_generator_8h_source.html#l00521) 行定义. |

@@ -1,0 +1,11 @@
+# AkPlane
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkPlane](class_ak_plane.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AkPlane](class_ak_plane_a32737c6177dbf84d391ed46da4de130f.html#a32737c6177dbf84d391ed46da4de130f) | | [AkPlane](class_ak_plane_a1edcd77173ae8cd9c0a54dbc91665f8d.html#a1edcd77173ae8cd9c0a54dbc91665f8d) | | [DistPoint\_to\_Plane](class_ak_plane_a92c27a5eb3d5cd50cf01833af9b4a53b.html#a92c27a5eb3d5cd50cf01833af9b4a53b) | | [DoesRayIntersect](class_ak_plane_a44558e55d8fe5cdcffda5a7e2747d231.html#a44558e55d8fe5cdcffda5a7e2747d231) | | [FindIntersectionPoints](class_ak_plane_afa3174073a07801c88f1f019cd4e0946.html#afa3174073a07801c88f1f019cd4e0946) | | [GetD](class_ak_plane_adb98bf90f7c3d77b103b2299dbb9631f.html#adb98bf90f7c3d77b103b2299dbb9631f) | | [GetN](class_ak_plane_a0c22ed6c0fa69bc59dfd8f4854295851.html#a0c22ed6c0fa69bc59dfd8f4854295851) | | [GetP1](class_ak_plane_a6c87946e208be455cfab0c3d7adca6ac.html#a6c87946e208be455cfab0c3d7adca6ac) | | [GetP2](class_ak_plane_ac64af2c21f5520acb525b4d987d15563.html#ac64af2c21f5520acb525b4d987d15563) | | [GetP4](class_ak_plane_a4244918da5107889fdd165fa5985c9bf.html#a4244918da5107889fdd165fa5985c9bf) | | [SetPlane](class_ak_plane_ae006cfbb52fe50f7bbb2dbed862b18e6.html#ae006cfbb52fe50f7bbb2dbed862b18e6) | | [SetReflection](class_ak_plane_a405e0e1057517ea2e12410beabba65cc.html#a405e0e1057517ea2e12410beabba65cc) | | [◆](#a32737c6177dbf84d391ed46da4de130f)AkPlane() [1/2] |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  | | --- | --- | --- | --- | --- | | AkPlane::AkPlane | ( |  | ) |  | | default | |

@@ -1,0 +1,11 @@
+# RANDOM_A
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [CAkRng](class_c_ak_rng.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [CAkRng](class_c_ak_rng_a4c89f3a730bbebfe617f2d423fd8e4f3.html#a4c89f3a730bbebfe617f2d423fd8e4f3) | | [operator=](class_c_ak_rng_ab4159301363bdbfd497daf42515e8fc0.html#ab4159301363bdbfd497daf42515e8fc0) | | [Peek](class_c_ak_rng_a8003b5a6f3e2dfd158340b3f730590c6.html#a8003b5a6f3e2dfd158340b3f730590c6) | | [Peek](class_c_ak_rng_ac26d65c30639f5b67d4a9b7034540533.html#ac26d65c30639f5b67d4a9b7034540533) | | [Random](class_c_ak_rng_a151fe7c46d42fa6be12bc35ab75bd401.html#a151fe7c46d42fa6be12bc35ab75bd401) | | [Random](class_c_ak_rng_ae4e2d0b265568012366166666aa26e41.html#ae4e2d0b265568012366166666aa26e41) | | [RANDOM\_A](class_c_ak_rng_a0bdefd170fc2b036de1f2967bfd8c6fd.html#a0bdefd170fc2b036de1f2967bfd8c6fd) | | [RANDOM\_C](class_c_ak_rng_abb969faf0174fd790c8bd2923f435ff8.html#abb969faf0174fd790c8bd2923f435ff8) | | [RANDOM\_MAX](class_c_ak_rng_a8e04b9d014adc145bcbf98392083c53a.html#a8e04b9d014adc145bcbf98392083c53a) | | [RandomFloat](class_c_ak_rng_ae5fab1ba7576ef969d308520de815fb8.html#ae5fab1ba7576ef969d308520de815fb8) | | [RandomFloat](class_c_ak_rng_a3cde751ddc61736e23506aaa9739ed4c.html#a3cde751ddc61736e23506aaa9739ed4c) | | [RandomInt](class_c_ak_rng_a4d353eb5fe124835614a850994ba8488.html#a4d353eb5fe124835614a850994ba8488) | | [RandomInt](class_c_ak_rng_a69018b1343fda1f7ae5b5406fb17abca.html#a69018b1343fda1f7ae5b5406fb17abca) | | [Seed](class_c_ak_rng_ae8a8935ab43c13c7a545f62eb1a5a45b.html#ae8a8935ab43c13c7a545f62eb1a5a45b) | | [◆](#a0bdefd170fc2b036de1f2967bfd8c6fd)RANDOM\_A |  |  |  | | --- | --- | --- | | |  | | --- | | constexpr [AkUInt64](_ak_numeral_types_8h_a7b5402d7570cb20a11c8d21f2c2710ec.html#a7b5402d7570cb20a11c8d21f2c2710ec) CAkRng::RANDOM\_A = 6364136223846793005ULL | | staticconstexpr |  在文件 [AkRng.h](_ak_rng_8h_source.html) 第 [37](_ak_rng_8h_source.html#l00037) 行定义.  被这些函数引用 [Random()](_ak_rng_8h_source.html#l00084) , 以及 [RandomInt()](_ak_rng_8h_source.html#l00091). |

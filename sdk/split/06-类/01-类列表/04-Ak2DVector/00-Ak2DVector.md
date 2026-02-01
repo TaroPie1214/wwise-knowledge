@@ -1,0 +1,59 @@
+# Ak2DVector
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+[所有成员列表](class_ak2_d_vector-members.html) |
+[Public 成员函数](#pub-methods) |
+[Public 属性](#pub-attribs)
+
+Ak2DVector类 参考
+
+`#include <AkVectors.h>`
+
+|  |  |
+| --- | --- |
+| Public 成员函数 | |
+|  | [Ak2DVector](class_ak2_d_vector_ac171c8c43d5025cfc46c9a335c17dcc2.html#ac171c8c43d5025cfc46c9a335c17dcc2) ()=default |
+|  | |
+|  | [Ak2DVector](class_ak2_d_vector_aada3fe8268544b10ceaf759c49a41997.html#aada3fe8268544b10ceaf759c49a41997) ([AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) x, [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) y) |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [Ak2DVector](class_ak2_d_vector.html) | [operator=](class_ak2_d_vector_a5005b3dd733d2cc2159e7d271254551d.html#a5005b3dd733d2cc2159e7d271254551d) (const [Ak2DVector](class_ak2_d_vector.html) &b) |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [Ak2DVector](class_ak2_d_vector.html) | [operator=](class_ak2_d_vector_aff09e0b930214df131b10d3a0c8c71e9.html#aff09e0b930214df131b10d3a0c8c71e9) (const [AkSphericalCoord](struct_ak_spherical_coord.html) &b) |
+|  | |
+| [Ak2DVector](class_ak2_d_vector.html) | [operator-](class_ak2_d_vector_a840d78bf68062b29715ea377865303a3.html#a840d78bf68062b29715ea377865303a3) (const [Ak2DVector](class_ak2_d_vector.html) &b) const |
+|  | |
+| [Ak2DVector](class_ak2_d_vector.html) & | [operator\*=](class_ak2_d_vector_a0ee9a2ca4182cb0b82e04b2191994705.html#a0ee9a2ca4182cb0b82e04b2191994705) (const [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) f) |
+|  | |
+| [Ak2DVector](class_ak2_d_vector.html) & | [operator/=](class_ak2_d_vector_a70de3eecd4fdd5176a1d784b371182ce.html#a70de3eecd4fdd5176a1d784b371182ce) (const [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) f) |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [operator==](class_ak2_d_vector_afe4b6278cb6dfa3f4fa13405bfab4f90.html#afe4b6278cb6dfa3f4fa13405bfab4f90) (const [Ak2DVector](class_ak2_d_vector.html) &b) const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [operator!=](class_ak2_d_vector_a8c36c3c5f5045523bdfccfdb3ef28ba2.html#a8c36c3c5f5045523bdfccfdb3ef28ba2) (const [Ak2DVector](class_ak2_d_vector.html) &b) const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) | [Length](class_ak2_d_vector_a429d1c1ed7bd07c6f87e541c9410a6ff.html#a429d1c1ed7bd07c6f87e541c9410a6ff) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [Ak2DVector](class_ak2_d_vector.html) & | [CartesianToSpherical](class_ak2_d_vector_acdca4ce1c9b1d8bed126518294413c63.html#acdca4ce1c9b1d8bed126518294413c63) (const [Ak3DVector](_ak_vectors_8h_a209efc0dd63679f07d59b9cf3955b6ec.html#a209efc0dd63679f07d59b9cf3955b6ec) &in\_Cartesian) |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [Ak2DVector](class_ak2_d_vector.html) | [LinearCombination](class_ak2_d_vector_a48fc7fc8463fbca01a02a02c88a298ea.html#a48fc7fc8463fbca01a02a02c88a298ea) (const [Ak2DVector](class_ak2_d_vector.html) &A, const [Ak2DVector](class_ak2_d_vector.html) &B) const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [Ak2DVector](class_ak2_d_vector.html) | [NormalizeSpherical](class_ak2_d_vector_aa4ad540b36d1b6834900e2772b4ff9e6.html#aa4ad540b36d1b6834900e2772b4ff9e6) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) void | [NormalizeSpherical](class_ak2_d_vector_a398b4001fa2c40cac669c619142f5397.html#a398b4001fa2c40cac669c619142f5397) () |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [IsAllPositive](class_ak2_d_vector_a21ec49609e1a4855a61f376ec5c4a982.html#a21ec49609e1a4855a61f376ec5c4a982) () const |
+|  | |
+
+|  |  |
+| --- | --- |
+| Public 属性 | |
+| [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) | [X](class_ak2_d_vector_a795aa9bcc14ac3e2a5f849eebe31fc61.html#a795aa9bcc14ac3e2a5f849eebe31fc61) |
+|  | |
+| [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) | [Y](class_ak2_d_vector_a1e1ae35d9274f99ca0139e7e4a649994.html#a1e1ae35d9274f99ca0139e7e4a649994) |
+|  | |
+
+## 详细描述
+
+在文件 [AkVectors.h](_ak_vectors_8h_source.html) 第 [711](_ak_vectors_8h_source.html#l00711) 行定义.

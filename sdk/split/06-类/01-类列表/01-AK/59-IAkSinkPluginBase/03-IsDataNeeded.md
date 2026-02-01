@@ -1,0 +1,12 @@
+# IsDataNeeded
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkSinkPluginBase](class_a_k_1_1_i_ak_sink_plugin_base.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetSinkPluginType](class_a_k_1_1_i_ak_sink_plugin_base_ad440b6790f9c09050efea27facecba21.html#ad440b6790f9c09050efea27facecba21) | | [Init](class_a_k_1_1_i_ak_sink_plugin_base_ab13c519292782b8e485912cb85506f25.html#ab13c519292782b8e485912cb85506f25) | | [IsDataNeeded](class_a_k_1_1_i_ak_sink_plugin_base_a80d001f02f2c602683951e51a795954e.html#a80d001f02f2c602683951e51a795954e) | | [IsStarved](class_a_k_1_1_i_ak_sink_plugin_base_a857a107760429d52b05741e31967d82f.html#a857a107760429d52b05741e31967d82f) | | [OnFrameEnd](class_a_k_1_1_i_ak_sink_plugin_base_af7035e026261662fb26bc747eaee77af.html#af7035e026261662fb26bc747eaee77af) | | [ResetStarved](class_a_k_1_1_i_ak_sink_plugin_base_ae63b9e00dbba73aaa35912bc82fd0e3f.html#ae63b9e00dbba73aaa35912bc82fd0e3f) | | [◆](#a80d001f02f2c602683951e51a795954e)IsDataNeeded() |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | virtual [AKRESULT](_ak_enums_8h_a64f7d1f79613cc4dcc49a4efba6caa63.html#a64f7d1f79613cc4dcc49a4efba6caa63) AK::IAkSinkPluginBase::IsDataNeeded | ( | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) & | *out\_uNumFramesNeeded* | ) |  | | pure virtual |  Obtain the number of audio frames that should be processed by the sound engine and presented to this plugin via [AK::IAkSinkPlugin::Consume()](class_a_k_1_1_i_ak_sink_plugin_a72ea6266f695a0672ee0af6eaca81342.html#a72ea6266f695a0672ee0af6eaca81342). The size of a frame is determined by the sound engine and obtainable via AK::IAkPluginContextBase::GetMaxBufferLength().  返回  AK\_Success if successful, AK\_Fail if there was a critical error.  参见  - [AK::IAkSinkPlugin::Consume()](class_a_k_1_1_i_ak_sink_plugin_a72ea6266f695a0672ee0af6eaca81342.html#a72ea6266f695a0672ee0af6eaca81342) - [AK::IAkSinkPluginContext::SignalAudioThread()](class_a_k_1_1_i_ak_sink_plugin_context_ad0efd9efdaa789dc4d1bde887119272b.html#ad0efd9efdaa789dc4d1bde887119272b)  参数  |  |  | | --- | --- | | out\_uNumFramesNeeded | Returned number of audio frames needed. | |

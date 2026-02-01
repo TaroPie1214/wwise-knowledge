@@ -1,0 +1,12 @@
+# ~IAkPluginServiceMixer
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkPluginServiceMixer](class_a_k_1_1_i_ak_plugin_service_mixer.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ApplyGain](class_a_k_1_1_i_ak_plugin_service_mixer_a95fa86eafb55d2a64f9150d31ad70a61.html#a95fa86eafb55d2a64f9150d31ad70a61) | | [ApplyGainAndInterleave](class_a_k_1_1_i_ak_plugin_service_mixer_a472726d5f39ab39123004df5b84238df.html#a472726d5f39ab39123004df5b84238df) | | [Mix1inNChannels](class_a_k_1_1_i_ak_plugin_service_mixer_ab58149c13bfa05aec79c5b1299d85acc.html#ab58149c13bfa05aec79c5b1299d85acc) | | [MixChannel](class_a_k_1_1_i_ak_plugin_service_mixer_aeb49ac7c9b1335514afa3db3c978ba22.html#aeb49ac7c9b1335514afa3db3c978ba22) | | [MixNinNChannels](class_a_k_1_1_i_ak_plugin_service_mixer_ad6e7845e97312743d2a9e73aa1efb60d.html#ad6e7845e97312743d2a9e73aa1efb60d) | | [ProcessBiquadFilter](class_a_k_1_1_i_ak_plugin_service_mixer_a63fdf841a2e936d56a216db3a5f3789d.html#a63fdf841a2e936d56a216db3a5f3789d) | | [ProcessInterpBiquadFilter](class_a_k_1_1_i_ak_plugin_service_mixer_a7ee1fcef7af61ce90721b5296abddfb4.html#a7ee1fcef7af61ce90721b5296abddfb4) | | [ProcessPairedBiquadFilter](class_a_k_1_1_i_ak_plugin_service_mixer_a94bbfd469703fbdf25bdaf123ccc4fec.html#a94bbfd469703fbdf25bdaf123ccc4fec) | | [ProcessPairedInterpBiquadFilter](class_a_k_1_1_i_ak_plugin_service_mixer_a219e287bcfacd57b97c811f1487ff78f.html#a219e287bcfacd57b97c811f1487ff78f) | | [~IAkPluginServiceMixer](class_a_k_1_1_i_ak_plugin_service_mixer_a8d06351592584d03baf22ff62d1d6da0.html#a8d06351592584d03baf22ff62d1d6da0) | | [◆](#a8d06351592584d03baf22ff62d1d6da0)~IAkPluginServiceMixer() |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  | | --- | --- | --- | --- | --- | | virtual AK::IAkPluginServiceMixer::~IAkPluginServiceMixer | ( |  | ) |  | | inlineprotectedvirtual |  在文件 [IAkPlugin.h](_i_ak_plugin_8h_source.html) 第 [1743](_i_ak_plugin_8h_source.html#l01743) 行定义. |

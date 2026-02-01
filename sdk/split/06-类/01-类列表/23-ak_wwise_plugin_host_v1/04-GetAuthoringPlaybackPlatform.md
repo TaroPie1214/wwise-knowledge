@@ -1,0 +1,11 @@
+# GetAuthoringPlaybackPlatform
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_host\_v1](structak__wwise__plugin__host__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_host\_v1](structak__wwise__plugin__host__v1_a65856445e065d89070bb3be6526b0fae.html#a65856445e065d89070bb3be6526b0fae) | | [GetAssetLicenseStatus](structak__wwise__plugin__host__v1_afdd53923c5f190d9e8f4f8073ac9471f.html#afdd53923c5f190d9e8f4f8073ac9471f) | | [GetAuthoringPlaybackPlatform](structak__wwise__plugin__host__v1_a04c6938e999f9d1b3da2599155680e1f.html#a04c6938e999f9d1b3da2599155680e1f) | | [GetCurrentBasePlatform](structak__wwise__plugin__host__v1_a5b4582317147fd5532dfd5a042c8c011.html#a5b4582317147fd5532dfd5a042c8c011) | | [GetCurrentPlatform](structak__wwise__plugin__host__v1_abb94fc626e520d00c4f77e9b8fab3adb.html#abb94fc626e520d00c4f77e9b8fab3adb) | | [GetDefaultNativeAuthoringPlaybackPlatform](structak__wwise__plugin__host__v1_a4669e74dee936afa74b231bddd12bb7a.html#a4669e74dee936afa74b231bddd12bb7a) | | [GetLicenseStatus](structak__wwise__plugin__host__v1_a6a0c21e47528efa66060ed0a2ea6245e.html#a6a0c21e47528efa66060ed0a2ea6245e) | | [Instance](structak__wwise__plugin__host__v1_a6f9e30f00d3d35b188f14ff2a5145858.html#a6f9e30f00d3d35b188f14ff2a5145858) | | [NotifyInternalDataChanged](structak__wwise__plugin__host__v1_abae1f696cc611980e955b6b3c49860fd.html#abae1f696cc611980e955b6b3c49860fd) | | [WaapiCall](structak__wwise__plugin__host__v1_a583ae770addfdc00d6dd59c923cc4e06.html#a583ae770addfdc00d6dd59c923cc4e06) | | [◆](#a04c6938e999f9d1b3da2599155680e1f)GetAuthoringPlaybackPlatform |  | | --- | | GUID(\* ak\_wwise\_plugin\_host\_v1::GetAuthoringPlaybackPlatform) (const struct [ak\_wwise\_plugin\_host\_v1](structak__wwise__plugin__host__v1.html) \*in\_this) |  Retrieves the requested playback platform of the Authoring tool.  参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. |  返回  The unique ID of the requested playback's platform.  在文件 [Host.h](_v1_2_host_8h_source.html) 第 [98](_v1_2_host_8h_source.html#l00098) 行定义.  被这些函数引用 [AK.Wwise::Plugin::V1::HostBase< CHost, 2 >::GetAuthoringPlaybackPlatform()](_v1_2_host_8h_source.html#l00300). |

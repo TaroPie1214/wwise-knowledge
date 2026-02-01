@@ -1,0 +1,72 @@
+# IAkPluginMemAlloc.h
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Common](dir_d95da6bd1d27077206201426d7500a88.html)
+
+[类](#nested-classes) |
+[命名空间](#namespaces) |
+[宏定义](#define-members) |
+[函数](#func-members)
+
+IAkPluginMemAlloc.h 文件参考
+
+`#include <AK/SoundEngine/Common/AkTypes.h>`
+
+[浏览源代码.](_i_ak_plugin_mem_alloc_8h_source.html)
+
+|  |  |
+| --- | --- |
+| 类 | |
+| class | [AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html) |
+|  | |
+| class | [AkPluginArrayAllocator](class_ak_plugin_array_allocator.html) |
+|  | |
+
+|  |  |
+| --- | --- |
+| 命名空间 | |
+| namespace | [AK](namespace_a_k.html) |
+|  | Definition of data structures for [AkAudioObject](struct_ak_audio_object.html) |
+|  | |
+
+|  |  |
+| --- | --- |
+| 宏定义 | |
+| #define | [AK\_PLUGIN\_NEW](_i_ak_plugin_mem_alloc_8h_aca786bdd3829c192297a174d5d2d2479.html#aca786bdd3829c192297a174d5d2d2479)(\_allocator, \_what)   new( ( \_allocator ), \_\_FILE\_\_, \_\_LINE\_\_ ) \_what |
+|  | |
+| #define | [AK\_PLUGIN\_ALLOC](_i_ak_plugin_mem_alloc_8h_abf61bf0827a987e8799a75a4d0e2f615.html#abf61bf0827a987e8799a75a4d0e2f615)(\_allocator, \_size)   ( \_allocator )->Malloc( ( \_size ), \_\_FILE\_\_, \_\_LINE\_\_ ) |
+|  | |
+| #define | [AK\_PLUGIN\_ALLOC\_ALIGN](_i_ak_plugin_mem_alloc_8h_a13d68ec9e1946877aefa0499c3aadc92.html#a13d68ec9e1946877aefa0499c3aadc92)(\_allocator, \_size, \_align)   ( \_allocator )->Malign( ( \_size ), ( \_align ), \_\_FILE\_\_, \_\_LINE\_\_ ) |
+|  | |
+| #define | [AK\_PLUGIN\_REALLOC](_i_ak_plugin_mem_alloc_8h_ae671f098aaf0de796b89e8abf1738f5b.html#ae671f098aaf0de796b89e8abf1738f5b)(\_allocator, \_pmem, \_size)   ( \_allocator )->Realloc( ( \_pmem ), ( \_size ), \_\_FILE\_\_, \_\_LINE\_\_ ) |
+|  | |
+| #define | [AK\_PLUGIN\_REALLOC\_ALIGN](_i_ak_plugin_mem_alloc_8h_a4b6cf76b6a87396c65ee2ab9970bb388.html#a4b6cf76b6a87396c65ee2ab9970bb388)(\_allocator, \_pmem, \_size, \_align)   ( \_allocator )->ReallocAligned( ( \_pmem ), ( \_size ), ( \_align ), \_\_FILE\_\_, \_\_LINE\_\_ ) |
+|  | |
+| #define | [AK\_PLUGIN\_FREE](_i_ak_plugin_mem_alloc_8h_a37dac3dbf976521288ecb8f36a16af3a.html#a37dac3dbf976521288ecb8f36a16af3a)(\_allocator, \_pvmem)   ( \_allocator )->Free( ( \_pvmem ) ) |
+|  | |
+
+|  |  |
+| --- | --- |
+| 函数 | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) void \* | [operator new](_i_ak_plugin_mem_alloc_8h_a322ee9f7dce82755e112f143caefc04c.html#a322ee9f7dce82755e112f143caefc04c) (size\_t size, [AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html) \*in\_pAllocator, const char \*szFile, [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) ulLine) throw () |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) void \* | [operator new](_i_ak_plugin_mem_alloc_8h_ac598a4dede669c56dd79a1e57ae61868.html#ac598a4dede669c56dd79a1e57ae61868) (size\_t size, [AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html) \*in\_pAllocator) throw () |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) void | [operator delete](_i_ak_plugin_mem_alloc_8h_a6a433272f92d47413e62edb1b800928a.html#a6a433272f92d47413e62edb1b800928a) (void \*, [AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html) \*, const char \*, [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce)) throw () |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) void | [operator delete](_i_ak_plugin_mem_alloc_8h_a6e3574881c2f019ae12e34e4ef5d5694.html#a6e3574881c2f019ae12e34e4ef5d5694) (void \*, [AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html) \*) throw () |
+|  | |
+| template<class T > | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) void | [AK\_PLUGIN\_DELETE](_i_ak_plugin_mem_alloc_8h_ac6fa6544d3120811e155136866fc24aa.html#ac6fa6544d3120811e155136866fc24aa) ([AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html) \*in\_pAllocator, T \*in\_pObject) |
+|  | |
+
+## 详细描述
+
+Memory allocation macros for Wwise sound engine plug-ins.
+
+在文件 [IAkPluginMemAlloc.h](_i_ak_plugin_mem_alloc_8h_source.html) 中定义.

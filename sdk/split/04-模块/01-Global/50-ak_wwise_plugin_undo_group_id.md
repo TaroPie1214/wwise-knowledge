@@ -1,0 +1,11 @@
+# ak_wwise_plugin_undo_group_id
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [Global](group__global.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AK\_WWISE\_PLUGIN\_BASE\_INTERFACE\_FROM\_ID](group__global_ga2e92de39750f51adaec9aba5a094f699.html#ga2e92de39750f51adaec9aba5a094f699) | | [AK\_WWISE\_PLUGIN\_DERIVE\_FROM\_BACKEND\_INSTANCE](group__global_ga7549e1ba3f811921e9c26d28713121ce.html#ga7549e1ba3f811921e9c26d28713121ce) | | [AK\_WWISE\_PLUGIN\_DERIVE\_FROM\_FRONTEND\_INSTANCE](group__global_ga48ad2be17659d9177e929b2665804d9d.html#ga48ad2be17659d9177e929b2665804d9d) | | [AK\_WWISE\_PLUGIN\_DERIVE\_FROM\_INSTANCE\_BASE](group__global_ga2832a26d2283aa1ad22a7beaa34aada6.html#ga2832a26d2283aa1ad22a7beaa34aada6) | | [AK\_WWISE\_PLUGIN\_INTERFACE\_EXTEND\_PREVIOUS](group__global_ga2d3dca1d0980e5040a40d7a68da44859.html#ga2d3dca1d0980e5040a40d7a68da44859) | | [AK\_WWISE\_PLUGIN\_INTERFACE\_EXTEND\_PREVIOUS](group__global_gad455fd4de54bbeab7fd956f45e0a2715.html#gad455fd4de54bbeab7fd956f45e0a2715) | | [ak\_wwise\_plugin\_interface\_type](group__global_ga6611f8c24af9575c6be02f8a963b57c9.html#ga6611f8c24af9575c6be02f8a963b57c9) | | [ak\_wwise\_plugin\_property\_set\_braces](group__global_ga9e89de3693d568e58c5ef76bda84afbe.html#ga9e89de3693d568e58c5ef76bda84afbe) | | [ak\_wwise\_plugin\_property\_set\_braces\_values](group__global_ga3cfc97efdbbda4629a10f0e53e914eb9.html#ga3cfc97efdbbda4629a10f0e53e914eb9) | | [ak\_wwise\_plugin\_undo\_group\_close\_action](group__global_ga49b0af3e4205b935aa476d7ab1c9f65c.html#ga49b0af3e4205b935aa476d7ab1c9f65c) | | [ak\_wwise\_plugin\_undo\_group\_id](group__global_gaa45e88025407465159f485763021d524.html#gaa45e88025407465159f485763021d524) | | [ak\_wwise\_plugin\_widget](group__global_ga8b203f1b0ef4a48d2cee97d89eaae042.html#ga8b203f1b0ef4a48d2cee97d89eaae042) | | [◆](#gaa45e88025407465159f485763021d524)ak\_wwise\_plugin\_undo\_group\_id |  | | --- | | typedef int [ak\_wwise\_plugin\_undo\_group\_id](group__global_gaa45e88025407465159f485763021d524.html#gaa45e88025407465159f485763021d524) |  Unique identifier for a particular undo group. Useful to reopen an unapplied closed group session.  在文件 [PluginDef.h](_plugin_def_8h_source.html) 第 [511](_plugin_def_8h_source.html#l00511) 行定义. |

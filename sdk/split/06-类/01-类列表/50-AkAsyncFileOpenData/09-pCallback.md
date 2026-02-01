@@ -1,0 +1,11 @@
+# pCallback
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkAsyncFileOpenData](struct_ak_async_file_open_data.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AkAsyncFileOpenData](struct_ak_async_file_open_data_a511935d72bff752c1f3a432463cb4f8a.html#a511935d72bff752c1f3a432463cb4f8a) | | [AkAsyncFileOpenData](struct_ak_async_file_open_data_ad9f23895ee09b801b8ecf24bb9e2faea.html#ad9f23895ee09b801b8ecf24bb9e2faea) | | [AkAsyncFileOpenData](struct_ak_async_file_open_data_a920b83ca6b7d391a474a4841284ee5fa.html#a920b83ca6b7d391a474a4841284ee5fa) | | [AkAsyncFileOpenData](struct_ak_async_file_open_data_ac773bad9685141246e322b4bc8e3e3e3.html#ac773bad9685141246e322b4bc8e3e3e3) | | [AkAsyncFileOpenData](struct_ak_async_file_open_data_afffa0a77d6c9fe0d295c0a518ce29c89.html#afffa0a77d6c9fe0d295c0a518ce29c89) | | [GetStreamName](struct_ak_async_file_open_data_ac0542f7f79105f4f3a3e9c4d0d7ed0bc.html#ac0542f7f79105f4f3a3e9c4d0d7ed0bc) | | [pCallback](struct_ak_async_file_open_data_a723b3d53794fc8c325d51c455a586229.html#a723b3d53794fc8c325d51c455a586229) | | [pCookie](struct_ak_async_file_open_data_a97743485d9534d61987aacb96c57704f.html#a97743485d9534d61987aacb96c57704f) | | [pCustomData](struct_ak_async_file_open_data_a496f8e8982ec35bd71d1734c151311c3.html#a496f8e8982ec35bd71d1734c151311c3) | | [pFileDesc](struct_ak_async_file_open_data_ae3694e2a2a9f90364b3f865cc84627e5.html#ae3694e2a2a9f90364b3f865cc84627e5) | | [SetStreamName](struct_ak_async_file_open_data_a9e2352c2e0e3336eafab76c92b29f759.html#a9e2352c2e0e3336eafab76c92b29f759) | | [~AkAsyncFileOpenData](struct_ak_async_file_open_data_a8daba8e6af18c288722745332bcc82e0.html#a8daba8e6af18c288722745332bcc82e0) | | [◆](#a723b3d53794fc8c325d51c455a586229)pCallback |  | | --- | | [AkFileOpenCallback](_ak_stream_mgr_module_8h_ae00967344e3fcd553d8cdf391ec7081e.html#ae00967344e3fcd553d8cdf391ec7081e) AkAsyncFileOpenData::pCallback |  Callback function used to notify the high-level device when Open is done  在文件 [AkStreamMgrModule.h](_ak_stream_mgr_module_8h_source.html) 第 [198](_ak_stream_mgr_module_8h_source.html#l00198) 行定义. |

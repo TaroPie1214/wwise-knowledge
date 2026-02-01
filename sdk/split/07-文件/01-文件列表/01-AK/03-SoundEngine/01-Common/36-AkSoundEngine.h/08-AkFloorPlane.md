@@ -1,0 +1,14 @@
+# AkFloorPlane
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Common](dir_d95da6bd1d27077206201426d7500a88.html)
+- [AkSoundEngine.h](_ak_sound_engine_8h.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AK\_ASSERT\_HOOK](_ak_sound_engine_8h_a4be2a10f389cda83d9646f431ddadb86.html#a4be2a10f389cda83d9646f431ddadb86) | | [AkAssertHook](_ak_sound_engine_8h_a828f993c08d2b2736616e6962c8680f1.html#a828f993c08d2b2736616e6962c8680f1) | | [AkBackgroundMusicChangeCallbackFunc](_ak_sound_engine_8h_ad8c63f34a7148171febdbcf5ead5431b.html#ad8c63f34a7148171febdbcf5ead5431b) | | [AkFloorPlane](_ak_sound_engine_8h_a225b928d2b96fc2fd205ec5e0126d0f4.html#a225b928d2b96fc2fd205ec5e0126d0f4) | | [AkJobWorkerFunc](_ak_sound_engine_8h_a8edd5fddd3dfdf6cc9b17f63ad23915c.html#a8edd5fddd3dfdf6cc9b17f63ad23915c) | | [AkProfilerPopTimerFunc](_ak_sound_engine_8h_a7ea191d14466c20ddcfa300aa5a11f9c.html#a7ea191d14466c20ddcfa300aa5a11f9c) | | [AkProfilerPostMarkerFunc](_ak_sound_engine_8h_afd663bf69bb434a594a61f185b1e1c52.html#afd663bf69bb434a594a61f185b1e1c52) | | [AkProfilerPushTimerFunc](_ak_sound_engine_8h_a565822e94507ed0826247173f6c5a144.html#a565822e94507ed0826247173f6c5a144) | | [◆](#a225b928d2b96fc2fd205ec5e0126d0f4)AkFloorPlane |  | | --- | | enum [AkFloorPlane](_ak_sound_engine_8h_a225b928d2b96fc2fd205ec5e0126d0f4.html#a225b928d2b96fc2fd205ec5e0126d0f4) |  Define the orientation of the the floor plane with respect to the X,Y,Z axes, and which axes represent the side, front and up vectors as a basis for rotations in Wwise. AkFloorPlane is used in to orient the Game Object 3D Viewer in Wwise, and in the transformation of geometry instances in Wwise Spatial Audio.   | 枚举值 | | | --- | --- | | AkFloorPlane\_XZ | The floor is oriented along the ZX-plane. The front vector points towards +Z, the up vector towards +Y, and the side vector towards +X. | | AkFloorPlane\_XY | The floor is oriented along the XY-plane. The front vector points towards +X, the up vector towards +Z, and the side vector towards +Y. | | AkFloorPlane\_YZ | The floor is oriented along the YZ-plane. The front vector points towards +Y, the up vector towards +X, and the side vector towards +Z. | | AkFloorPlane\_Last | End of enum, invalid value. | | AkFloorPlane\_Default | The Wwise default floor plane is ZX. |   在文件 [AkSoundEngine.h](_ak_sound_engine_8h_source.html) 第 [127](_ak_sound_engine_8h_source.html#l00127) 行定义. |

@@ -1,0 +1,22 @@
+# AkMemoryMgrFuncs.h
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Common](dir_d95da6bd1d27077206201426d7500a88.html)
+
+AkMemoryMgrFuncs.h 文件参考
+
+`#include <AK/SoundEngine/Common/AkTypes.h>`  
+`#include <AK/SoundEngine/Platforms/Windows/AkMemoryMgrFuncs.h>`
+
+[浏览源代码.](_common_2_ak_memory_mgr_funcs_8h_source.html)
+
+## 详细描述
+
+Platform-dependent function definitions for memory mgr
+
+在文件 [AkMemoryMgrFuncs.h](_common_2_ak_memory_mgr_funcs_8h_source.html) 中定义.

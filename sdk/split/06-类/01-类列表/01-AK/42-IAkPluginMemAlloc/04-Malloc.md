@@ -1,0 +1,12 @@
+# Malloc
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [Free](class_a_k_1_1_i_ak_plugin_mem_alloc_ac86ca339952bc71a81c113007c9eff70.html#ac86ca339952bc71a81c113007c9eff70) | | [Malign](class_a_k_1_1_i_ak_plugin_mem_alloc_ac0a62d0ecaf499a8e970749f7dab997c.html#ac0a62d0ecaf499a8e970749f7dab997c) | | [Malloc](class_a_k_1_1_i_ak_plugin_mem_alloc_a9c088f25aa758b927fb47051756d678f.html#a9c088f25aa758b927fb47051756d678f) | | [Realloc](class_a_k_1_1_i_ak_plugin_mem_alloc_adcde8e2f3bae1737a56dffa292926033.html#adcde8e2f3bae1737a56dffa292926033) | | [ReallocAligned](class_a_k_1_1_i_ak_plugin_mem_alloc_a8a19e1e19531fe046b4f72ee623b27ad.html#a8a19e1e19531fe046b4f72ee623b27ad) | | [~IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc_ababbb05767843f656995ee53b789c40a.html#ababbb05767843f656995ee53b789c40a) | | [◆](#a9c088f25aa758b927fb47051756d678f)Malloc() |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual void\* AK::IAkPluginMemAlloc::Malloc | ( | size\_t | *in\_uSize*, | |  |  | const char \* | *in\_pszFile*, | |  |  | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | *in\_uLine* | |  | ) |  |  | | pure virtual |  Allocate memory.  返回  A pointer to the newly-allocated memory.  参见  - [在音频插件中分配/取消分配内存](soundengine_plugins.html#fx_memory_alloc)  参数  |  |  | | --- | --- | | in\_uSize | Allocation size in bytes | | in\_pszFile | Allocation file name (for tracking purposes, unused in Release) | | in\_uLine | Allocation line number (for tracking purposes, unused in Release) |  在 [AK.Wwise::Mallocator](class_a_k_1_1_wwise_1_1_mallocator_a7b6c51c73554f1f56787fd6ce5a0fac6.html#a7b6c51c73554f1f56787fd6ce5a0fac6) 内被实现. |

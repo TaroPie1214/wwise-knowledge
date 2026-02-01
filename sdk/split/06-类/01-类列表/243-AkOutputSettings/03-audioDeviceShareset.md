@@ -1,0 +1,11 @@
+# audioDeviceShareset
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkOutputSettings](struct_ak_output_settings.html)
+
+|  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AkOutputSettings](struct_ak_output_settings_a057960789c35740f5ab7a653d92fc6c0.html#a057960789c35740f5ab7a653d92fc6c0) | | [AkOutputSettings](struct_ak_output_settings_a62fe5204e9347724db24cc64399fdb48.html#a62fe5204e9347724db24cc64399fdb48) | | [audioDeviceShareset](struct_ak_output_settings_af1ff3ac68f3fa137c847144117d01535.html#af1ff3ac68f3fa137c847144117d01535) | | [channelConfig](struct_ak_output_settings_a5b546b6116a91f422fc0f61615159c06.html#a5b546b6116a91f422fc0f61615159c06) | | [ePanningRule](struct_ak_output_settings_aaf1191276e3ac40828eeefb1db8767f7.html#aaf1191276e3ac40828eeefb1db8767f7) | | [idDevice](struct_ak_output_settings_a0e145d97af362b7f3267b64ca0e38054.html#a0e145d97af362b7f3267b64ca0e38054) | | [◆](#af1ff3ac68f3fa137c847144117d01535)audioDeviceShareset |  | | --- | | [AkUniqueID](_ak_typedefs_8h_a8341fa4d01d2fa852c3cc410401b04dc.html#a8341fa4d01d2fa852c3cc410401b04dc) AkOutputSettings::audioDeviceShareset |  Unique ID of a custom audio device to be used. Custom audio devices are defined in the Audio Device Shareset section of the Wwise project. If you want to output normally through the output device defined on the Master Bus in your project, leave this field to its default value (AK\_INVALID\_UNIQUE\_ID, or value 0). Typical usage: AkInitSettings.eOutputSettings.audioDeviceShareset = [AK::SoundEngine::GetIDFromString](namespace_a_k_1_1_sound_engine_a1aae6ebdec25946fb2897ce0e025366d.html#a1aae6ebdec25946fb2897ce0e025366d)("InsertYourAudioDeviceSharesetNameHere");  参见  `AK::SoundEngine::GetIDFromString()`  [创建音频设备 (Sink) 插件](soundengine_plugins_audiodevices.html)  [集成二路输出](integrating_secondary_outputs.html)  [默认 Wwise Audio Device](default_audio_devices.html)  在文件 [AkSoundEngineTypes.h](_ak_sound_engine_types_8h_source.html) 第 [241](_ak_sound_engine_types_8h_source.html#l00241) 行定义. |

@@ -1,0 +1,9 @@
+# Invalid parameter ... in function call ...
+
+[Wwise 帮助文档](../../../../00-Wwise-帮助文档.md) > [参考主题](../../../00-参考主题.md) > [Profiler 视图](../../00-Profiler-视图.md) > [Capture Log](../00-Capture-Log.md) > [Capture Log 中报告的错误](00-Capture-Log-中报告的错误.md) > Invalid parameter ... in function call ...
+
+#### Invalid parameter ... in function call ...
+
+“函数调用…中的参数…无效。”指定参数超出范围或对函数来说是非法值。参阅 SDK 函数文档并确认哪些是可接受的值。
+
+---

@@ -1,0 +1,11 @@
+# Help
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_gui\_windows\_v1](structak__wwise__plugin__gui__windows__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_gui\_windows\_v1](structak__wwise__plugin__gui__windows__v1_a20cada8d06bc0ef19afa66f617f30032.html#a20cada8d06bc0ef19afa66f617f30032) | | [GetDialog](structak__wwise__plugin__gui__windows__v1_a3eb842cb63ed86b621bcea6ed692bd1c.html#a3eb842cb63ed86b621bcea6ed692bd1c) | | [GetResourceHandle](structak__wwise__plugin__gui__windows__v1_a5b036698bfb04694254fe7a1a61ebd79.html#a5b036698bfb04694254fe7a1a61ebd79) | | [Help](structak__wwise__plugin__gui__windows__v1_a1cd16b3f42ff0faf531a190b649da0cf.html#a1cd16b3f42ff0faf531a190b649da0cf) | | [Instance](structak__wwise__plugin__gui__windows__v1_a09c7632c820f2c3e31d583b814463279.html#a09c7632c820f2c3e31d583b814463279) | | [WindowProc](structak__wwise__plugin__gui__windows__v1_a61a4925c4d1df3c0cb1d05b35b5bbc46.html#a61a4925c4d1df3c0cb1d05b35b5bbc46) | | [◆](#a1cd16b3f42ff0faf531a190b649da0cf)Help |  | | --- | | bool(\* ak\_wwise\_plugin\_gui\_windows\_v1::Help) (const struct [ak\_wwise\_plugin\_gui\_windows\_instance\_v1](structak__wwise__plugin__gui__windows__instance__v1.html) \*in\_this, HWND in\_hWnd, [AK::Wwise::Plugin::eDialog](namespace_a_k_1_1_wwise_1_1_plugin_a5a9328b141630d1de228c92e81e9034d.html#a5a9328b141630d1de228c92e81e9034d) in\_eDialog, const char \*in\_szLanguageCode) |  Called when the user clicks on the '?' icon.  参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. | | [in] | in\_hWnd | The window handle of the dialog. | | [in] | in\_eDialog | The dialog type. | | [in] | in\_szLanguageCode | The language code in ISO639-1. |  返回  true if the plug-in handled the help request, false otherwise  参见  - [显示插件的帮助](plugin_frontend_windows.html#wwiseplugin_help)  在文件 [GUIWindows.h](_g_u_i_windows_8h_source.html) 第 [176](_g_u_i_windows_8h_source.html#l00176) 行定义.  被这些函数引用 [AK.Wwise::Plugin::V1::GUIWindows::Interface::Interface()](_g_u_i_windows_8h_source.html#l00229). |

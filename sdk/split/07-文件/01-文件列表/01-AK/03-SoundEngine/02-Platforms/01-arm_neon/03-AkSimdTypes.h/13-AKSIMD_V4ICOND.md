@@ -1,0 +1,15 @@
+# AKSIMD_V4ICOND
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Platforms](dir_9707d8b0bea28caa964fded672ce5309.html)
+- [arm\_neon](dir_cb8d730ec7448ade74b00880a1c0dd04.html)
+- [AkSimdTypes.h](_platforms_2arm__neon_2_ak_simd_types_8h.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AKSIMD\_ARCHCACHELINESIZE](_platforms_2arm__neon_2_ak_simd_types_8h_a4b65a228692375fcda4587bfe3c5775d.html#a4b65a228692375fcda4587bfe3c5775d) | | [AKSIMD\_ARCHMAXPREFETCHSIZE](_platforms_2arm__neon_2_ak_simd_types_8h_a87484f0fe32b8c8199e14efc937f699d.html#a87484f0fe32b8c8199e14efc937f699d) | | [AKSIMD\_F32](_platforms_2arm__neon_2_ak_simd_types_8h_ae27adc42127f4118c629383f01ab180a.html#ae27adc42127f4118c629383f01ab180a) | | [AKSIMD\_PREFETCHMEMORY](_platforms_2arm__neon_2_ak_simd_types_8h_aca6c7c0477b808de201a0daac7904276.html#aca6c7c0477b808de201a0daac7904276) | | [AKSIMD\_V2F32](_platforms_2arm__neon_2_ak_simd_types_8h_aed084494a3d562047bb740839f7faa91.html#aed084494a3d562047bb740839f7faa91) | | [AKSIMD\_V2I32](_platforms_2arm__neon_2_ak_simd_types_8h_abb8d5eb781f0c08b1e3a83404850a941.html#abb8d5eb781f0c08b1e3a83404850a941) | | [AKSIMD\_V2UI32](_platforms_2arm__neon_2_ak_simd_types_8h_a8a65e68698c7a59856d6eca980e2df26.html#a8a65e68698c7a59856d6eca980e2df26) | | [AKSIMD\_V4COND](_platforms_2arm__neon_2_ak_simd_types_8h_afb7c86c28c820a1b36aa724954a752e9.html#afb7c86c28c820a1b36aa724954a752e9) | | [AKSIMD\_V4F32](_platforms_2arm__neon_2_ak_simd_types_8h_a3b875ede86d9b294cff47d890c9ae3ef.html#a3b875ede86d9b294cff47d890c9ae3ef) | | [AKSIMD\_V4FCOND](_platforms_2arm__neon_2_ak_simd_types_8h_ab894b0173109220b318636645106c231.html#ab894b0173109220b318636645106c231) | | [AKSIMD\_V4I16](_platforms_2arm__neon_2_ak_simd_types_8h_a2ecae44e08019e96a2a0260cb4b59cd4.html#a2ecae44e08019e96a2a0260cb4b59cd4) | | [AKSIMD\_V4I32](_platforms_2arm__neon_2_ak_simd_types_8h_adb17cf12c601673ed735f7505bf30e5e.html#adb17cf12c601673ed735f7505bf30e5e) | | [AKSIMD\_V4ICOND](_platforms_2arm__neon_2_ak_simd_types_8h_a5095dff08818d6ae0e647eca24a132b0.html#a5095dff08818d6ae0e647eca24a132b0) | | [AKSIMD\_V4UI32](_platforms_2arm__neon_2_ak_simd_types_8h_aee5c28dd6d10cd5a172e0d470fddf802.html#aee5c28dd6d10cd5a172e0d470fddf802) | | [AKSIMD\_V8I16](_platforms_2arm__neon_2_ak_simd_types_8h_a65adeed93686c08e9fa72d952cd068ad.html#a65adeed93686c08e9fa72d952cd068ad) | | [◆](#a5095dff08818d6ae0e647eca24a132b0)AKSIMD\_V4ICOND |  | | --- | | typedef uint32x4\_t [AKSIMD\_V4ICOND](_platforms_2arm__neon_2_ak_simd_types_8h_a5095dff08818d6ae0e647eca24a132b0.html#a5095dff08818d6ae0e647eca24a132b0) |  Vector of 4 comparison results  在文件 [AkSimdTypes.h](_platforms_2arm__neon_2_ak_simd_types_8h_source.html) 第 [65](_platforms_2arm__neon_2_ak_simd_types_8h_source.html#l00065) 行定义. |

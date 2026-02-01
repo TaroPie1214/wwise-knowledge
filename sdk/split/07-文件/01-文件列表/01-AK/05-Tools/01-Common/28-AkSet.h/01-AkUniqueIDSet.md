@@ -1,0 +1,14 @@
+# AkUniqueIDSet
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [Tools](dir_044f82abbf9804de57b7455f5736f74d.html)
+- [Common](dir_3473269f4f57a4c2151a78abe7278350.html)
+- [AkSet.h](_ak_set_8h.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AkContains](_ak_set_8h_ad44b52a7951cc067e7f022bc6225e2b2.html#ad44b52a7951cc067e7f022bc6225e2b2) | | [AkCountIntersection](_ak_set_8h_adced28c4ecf1f27b9f49ebd3a32abc7f.html#adced28c4ecf1f27b9f49ebd3a32abc7f) | | [AkDisjoint](_ak_set_8h_a93f242be5040cd729ebd0c1a6a597a87.html#a93f242be5040cd729ebd0c1a6a597a87) | | [AkIntersect](_ak_set_8h_a7d7ac1a2d4c988ca461a2d873a8106fa.html#a7d7ac1a2d4c988ca461a2d873a8106fa) | | [AkIntersect](_ak_set_8h_a0cfc7eedd292b5d7212aaadf5d9bf54e.html#a0cfc7eedd292b5d7212aaadf5d9bf54e) | | [AkIntersection](_ak_set_8h_ab7b42b72f413fd7ed51c87391fcff279.html#ab7b42b72f413fd7ed51c87391fcff279) | | [AkIntersection](_ak_set_8h_adbd65c260407d0fd7b1e4a89afd4176c.html#adbd65c260407d0fd7b1e4a89afd4176c) | | [AkIsSubset](_ak_set_8h_ab7771a1c98af35de43a62c398a45a3df.html#ab7771a1c98af35de43a62c398a45a3df) | | [AkSetType](_ak_set_8h_a72fcdc17f16750967d9a4ee5d106546e.html#a72fcdc17f16750967d9a4ee5d106546e) | | [AkSubtraction](_ak_set_8h_a017ff356d259bcb0471fdc8671de695a.html#a017ff356d259bcb0471fdc8671de695a) | | [AkSubtraction](_ak_set_8h_afb6a51ce8a6d0fbc9c2b033eb0557a2f.html#afb6a51ce8a6d0fbc9c2b033eb0557a2f) | | [AkUnion](_ak_set_8h_a983590cb64c222d079503fdf3b0c0c1e.html#a983590cb64c222d079503fdf3b0c0c1e) | | [AkUnion](_ak_set_8h_ae67052a5b2e873e9be61169b7d7c3e22.html#ae67052a5b2e873e9be61169b7d7c3e22) | | [AkUniqueIDSet](_ak_set_8h_a6829125da7c5537eacefe74765dcbf7d.html#a6829125da7c5537eacefe74765dcbf7d) | | [◆](#a6829125da7c5537eacefe74765dcbf7d)AkUniqueIDSet |  | | --- | | typedef [AkSet](class_ak_set.html)< [AkUniqueID](_ak_typedefs_8h_a8341fa4d01d2fa852c3cc410401b04dc.html#a8341fa4d01d2fa852c3cc410401b04dc), [ArrayPoolDefault](_ak_array_8h_a6d1995f92ec49c35784181225575438f.html#a6d1995f92ec49c35784181225575438f) > [AkUniqueIDSet](_ak_set_8h_a6829125da7c5537eacefe74765dcbf7d.html#a6829125da7c5537eacefe74765dcbf7d) |  在文件 [AkSet.h](_ak_set_8h_source.html) 第 [315](_ak_set_8h_source.html#l00315) 行定义. |

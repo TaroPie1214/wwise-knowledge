@@ -1,0 +1,12 @@
+# Get
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkStreamMgr](class_a_k_1_1_i_ak_stream_mgr.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [CreateAuto](class_a_k_1_1_i_ak_stream_mgr_afe30a576bd859ff4e9b60a3f8e1710fb.html#afe30a576bd859ff4e9b60a3f8e1710fb) | | [CreateAuto](class_a_k_1_1_i_ak_stream_mgr_a53253493732377e022adf3c82547bbd5.html#a53253493732377e022adf3c82547bbd5) | | [CreateStd](class_a_k_1_1_i_ak_stream_mgr_a1de2a7935a2d3cddb71e7cc7f48effd6.html#a1de2a7935a2d3cddb71e7cc7f48effd6) | | [Destroy](class_a_k_1_1_i_ak_stream_mgr_ab846904b7ad95752193cf0e9a288ea8a.html#ab846904b7ad95752193cf0e9a288ea8a) | | [Get](class_a_k_1_1_i_ak_stream_mgr_ac650db9915bd06d5eebc1852e0d0cd6e.html#ac650db9915bd06d5eebc1852e0d0cd6e) | | [GetBufferStatusForPinnedFile](class_a_k_1_1_i_ak_stream_mgr_a98e0b89d39648ac3353537996d7767e2.html#a98e0b89d39648ac3353537996d7767e2) | | [GetStreamMgrProfile](class_a_k_1_1_i_ak_stream_mgr_abce23f619236db5f03364d9447caec71.html#abce23f619236db5f03364d9447caec71) | | [m\_pStreamMgr](class_a_k_1_1_i_ak_stream_mgr_a85c6043c1a45f13b7df2f05729248b1f.html#a85c6043c1a45f13b7df2f05729248b1f) | | [PinFileInCache](class_a_k_1_1_i_ak_stream_mgr_a702436773924b830729f94d609c62fc2.html#a702436773924b830729f94d609c62fc2) | | [RelocateMemoryStream](class_a_k_1_1_i_ak_stream_mgr_a48995fb54560d607a9c1482a1922b2d1.html#a48995fb54560d607a9c1482a1922b2d1) | | [UnpinFileInCache](class_a_k_1_1_i_ak_stream_mgr_a47ee7a0b872d4703f64f0184097e6fed.html#a47ee7a0b872d4703f64f0184097e6fed) | | [UpdateCachingPriority](class_a_k_1_1_i_ak_stream_mgr_a959a8794ecf971eece797fabc0a7a4c9.html#a959a8794ecf971eece797fabc0a7a4c9) | | [~IAkStreamMgr](class_a_k_1_1_i_ak_stream_mgr_a7cc382f272e80f165577d9214bcca85c.html#a7cc382f272e80f165577d9214bcca85c) | | [◆](#ac650db9915bd06d5eebc1852e0d0cd6e)Get() |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  | | --- | --- | --- | --- | --- | | static [IAkStreamMgr](class_a_k_1_1_i_ak_stream_mgr.html)\* AK::IAkStreamMgr::Get | ( |  | ) |  | | inlinestatic |  Global access to singleton.  返回  The interface of the global Stream Manager  参见  - [流播放/流管理器](streamingdevicemanager.html)  在文件 [IAkStreamMgr.h](_i_ak_stream_mgr_8h_source.html) 第 [698](_i_ak_stream_mgr_8h_source.html#l00698) 行定义.  引用了 [m\_pStreamMgr](_i_ak_stream_mgr_8h_source.html#l00836). |

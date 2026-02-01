@@ -1,0 +1,15 @@
+# k_interfaceType
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [V1](namespace_a_k_1_1_wwise_1_1_plugin_1_1_v1.html)
+- [XmlWriter](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [Append](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a18180435b215ef9d11c1ffb14c717668.html#a18180435b215ef9d11c1ffb14c717668) | | [GetReadyState](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_ace112b62b13a1a00d766da59822b4fe9.html#ace112b62b13a1a00d766da59822b4fe9) | | [GetWriteState](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a5b0ee38f5938a8a108a7d3499e13f9a5.html#a5b0ee38f5938a8a108a7d3499e13f9a5) | | [Interface](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a94ff2a79fcfeb840681846229b379fed.html#a94ff2a79fcfeb840681846229b379fed) | | [IsReady](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a1595fe6e55cf4854a72083a59c8c3b77.html#a1595fe6e55cf4854a72083a59c8c3b77) | | [WriteAttributeString](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_ad7350d80d578c2f718a108bfc4a2dd62.html#ad7350d80d578c2f718a108bfc4a2dd62) | | [WriteCData](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_ab4185aca65c82228fdf52d9c0f2df461.html#ab4185aca65c82228fdf52d9c0f2df461) | | [WriteEndDocument](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a5a92ac9e6c87bbcf63a645aa73171927.html#a5a92ac9e6c87bbcf63a645aa73171927) | | [WriteEndElement](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a80ca14f8259d4d8c09c1b84a7c86bed3.html#a80ca14f8259d4d8c09c1b84a7c86bed3) | | [WriteRaw](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_aa9e2eda930e00894413253113f580e7a.html#aa9e2eda930e00894413253113f580e7a) | | [WriteStartDocument](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a6036943367f91cbce59e3f1ecc3ba2e0.html#a6036943367f91cbce59e3f1ecc3ba2e0) | | [WriteStartElement](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a7a866ea14233332e304f456b31c6bed8.html#a7a866ea14233332e304f456b31c6bed8) | | [WriteString](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_writer_a8296d87c9595a35ebd564407c11b657f.html#a8296d87c9595a35ebd564407c11b657f) | | [◆](#a177c9597ab47079f2db1d59c26a66344)anonymous enum |  | | --- | | anonymous enum : [InterfaceTypeValue](namespace_a_k_1_1_wwise_1_1_plugin_af1b35c028fe0e61c30385aba36fa6372.html#af1b35c028fe0e61c30385aba36fa6372) |  The interface type, as requested by this plug-in.   | 枚举值 | | | --- | --- | | k\_interfaceType | The interface type, as requested by this plug-in. |   在文件 [HostXml.h](_host_xml_8h_source.html) 第 [763](_host_xml_8h_source.html#l00763) 行定义. |

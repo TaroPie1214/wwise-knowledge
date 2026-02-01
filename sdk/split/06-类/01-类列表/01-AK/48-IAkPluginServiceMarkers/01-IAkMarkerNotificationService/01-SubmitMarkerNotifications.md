@@ -1,0 +1,13 @@
+# SubmitMarkerNotifications
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkPluginServiceMarkers](class_a_k_1_1_i_ak_plugin_service_markers.html)
+- [IAkMarkerNotificationService](class_a_k_1_1_i_ak_plugin_service_markers_1_1_i_ak_marker_notification_service.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [SubmitMarkerNotifications](class_a_k_1_1_i_ak_plugin_service_markers_1_1_i_ak_marker_notification_service_a37f50515ba3505f02de27d3c43a2616f.html#a37f50515ba3505f02de27d3c43a2616f) | | [◆](#a37f50515ba3505f02de27d3c43a2616f)SubmitMarkerNotifications() |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual [AKRESULT](_ak_enums_8h_a64f7d1f79613cc4dcc49a4efba6caa63.html#a64f7d1f79613cc4dcc49a4efba6caa63) AK::IAkPluginServiceMarkers::IAkMarkerNotificationService::SubmitMarkerNotifications | ( | const [AkAudioMarker](struct_ak_audio_marker.html) \* | *in\_pMarkers*, | |  |  | const [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) \* | *in\_uOffsetsInBuffer*, | |  |  | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | *in\_uNumMarkers* | |  | ) |  |  | | pure virtual |  Submit markers to trigger notifications for registered callback functions. Register callbacks through. Registering a callback can be achieved through the PostEvent function on [AK::SoundEngine](namespace_a_k_1_1_sound_engine.html).  返回  - `AK_NotInitialized` if no callback functions have been registered. - `AK_InvalidParameter` if in\_pMarkers is null. - `AK_InvalidParameter` if in\_uOffsetsInBuffer is null. - `AK_InvalidParameter` if in\_uNumMarkers is 0. - `AK_InvalidParameter` if any valus in in\_uOffsetsInBuffer is greater or equal to the length of the buffer. - `AK_Success` otherwise.  参见  - [AK::SoundEngine::PostEvent()](namespace_a_k_1_1_sound_engine_a41e9ef8d42951871fe4a8ae58a29a68e.html#a41e9ef8d42951871fe4a8ae58a29a68e)  参数  |  |  | | --- | --- | | in\_pMarkers | Array of [AkAudioMarker](struct_ak_audio_marker.html "Defines the parameters of a marker.") objects | | in\_uOffsetsInBuffer | Array of buffer offsets for each marker contained in `in_pMarkers`. Must provide a value for each marker in `in_pMarkers`. | | in\_uNumMarkers | The number of marker objects in  `in_pMarkers` | |

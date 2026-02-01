@@ -1,0 +1,13 @@
+# GetDeviceData
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [StreamMgr](namespace_a_k_1_1_stream_mgr.html)
+- [IAkLowLevelIOHook](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [BatchOpen](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a0abfde848b599b5e5b8e8ed63dc8b555.html#a0abfde848b599b5e5b8e8ed63dc8b555) | | [BatchRead](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a9bc325405bc17c0a5105d0a53981b186.html#a9bc325405bc17c0a5105d0a53981b186) | | [BatchWrite](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a8f5041a24e395784437a62cdd2140505.html#a8f5041a24e395784437a62cdd2140505) | | [Close](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a7a50a7a5fa624691d7bb7608753dc096.html#a7a50a7a5fa624691d7bb7608753dc096) | | [GetBlockSize](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a5018552d455ddc2a95b727fc543aac9e.html#a5018552d455ddc2a95b727fc543aac9e) | | [GetDeviceData](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a885d39fdd78da3748f78e176615fb6ea.html#a885d39fdd78da3748f78e176615fb6ea) | | [GetDeviceDesc](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a06860cb1211c2ebd5c49f4429cc66a0b.html#a06860cb1211c2ebd5c49f4429cc66a0b) | | [OutputSearchedPaths](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a40d53d28e4c8942d23ba011f1222d29a.html#a40d53d28e4c8942d23ba011f1222d29a) | | [~IAkLowLevelIOHook](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a35a38687a6a0fc6431c8dc8317f2434f.html#a35a38687a6a0fc6431c8dc8317f2434f) | | [◆](#a885d39fdd78da3748f78e176615fb6ea)GetDeviceData() |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  | | --- | --- | --- | --- | --- | | virtual [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) AK::StreamMgr::IAkLowLevelIOHook::GetDeviceData | ( |  | ) |  | | pure virtual |  Returns custom profiling data for the streaming device above this low-level hook. As opposed to [GetDeviceDesc()](class_a_k_1_1_stream_mgr_1_1_i_ak_low_level_i_o_hook_a06860cb1211c2ebd5c49f4429cc66a0b.html#a06860cb1211c2ebd5c49f4429cc66a0b), this is called at every monitoring frame. You may implement this function in order to display any value you find useful in the "Streaming Devices" tab of the [Wwise](namespace_a_k_1_1_wwise.html) profiler ("Custom Param" column).  备注  For profiling purposes only. The Release configuration of the Stream Manager never calls it.  返回  A 32-bit unsigned value to display in the [Wwise](namespace_a_k_1_1_wwise.html) profiler. |

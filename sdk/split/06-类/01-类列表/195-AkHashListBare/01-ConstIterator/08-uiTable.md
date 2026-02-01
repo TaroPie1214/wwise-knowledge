@@ -1,0 +1,12 @@
+# uiTable
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkHashListBare](class_ak_hash_list_bare.html)
+- [ConstIterator](struct_ak_hash_list_bare_1_1_const_iterator.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [operator!=](struct_ak_hash_list_bare_1_1_const_iterator_a39acf10570d3b7f9697b4e3c0d39ad06.html#a39acf10570d3b7f9697b4e3c0d39ad06) | | [operator\*](struct_ak_hash_list_bare_1_1_const_iterator_a12a921958dbd6d133982f94d021763f1.html#a12a921958dbd6d133982f94d021763f1) | | [operator++](struct_ak_hash_list_bare_1_1_const_iterator_a489093df76144ff53e4df0fc8caaaa6b.html#a489093df76144ff53e4df0fc8caaaa6b) | | [operator->](struct_ak_hash_list_bare_1_1_const_iterator_a2e900bc041a2059523596ef71bf73b52.html#a2e900bc041a2059523596ef71bf73b52) | | [operator==](struct_ak_hash_list_bare_1_1_const_iterator_abce040c9e94b1c97a364541bbd583c27.html#abce040c9e94b1c97a364541bbd583c27) | | [pItem](struct_ak_hash_list_bare_1_1_const_iterator_a77cf482cad3ac145aaa329ba5e156983.html#a77cf482cad3ac145aaa329ba5e156983) | | [pTable](struct_ak_hash_list_bare_1_1_const_iterator_afb2df8996a61d65b6250a165b7e129ce.html#afb2df8996a61d65b6250a165b7e129ce) | | [uiTable](struct_ak_hash_list_bare_1_1_const_iterator_ae64362a43b53ff9f4dc90aff38deeed6.html#ae64362a43b53ff9f4dc90aff38deeed6) | | [◆](#ae64362a43b53ff9f4dc90aff38deeed6)uiTable template<class T\_KEY , class T\_MAPSTRUCT , typename T\_ALLOC = ArrayPoolDefault, class KEY\_POLICY = AkDefaultHashListBarePolicy<T\_KEY, T\_MAPSTRUCT>, class LIST\_POLICY = AkDefaultHashListBarePolicy<T\_KEY, T\_MAPSTRUCT>>   |  | | --- | | [AkHashType](_ak_hash_list_8h_a93e50723472a35369bc80e47c3bb09c9.html#a93e50723472a35369bc80e47c3bb09c9) [AkHashListBare](class_ak_hash_list_bare.html)< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY, LIST\_POLICY >::ConstIterator::uiTable |  在文件 [AkHashList.h](_ak_hash_list_8h_source.html) 第 [722](_ak_hash_list_8h_source.html#l00722) 行定义.  被这些函数引用 [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY, LIST\_POLICY >::ConstIterator::operator++()](_ak_hash_list_8h_source.html#l00725) , 以及 [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY, LIST\_POLICY >::ConstIteratorEx::operator++()](_ak_hash_list_8h_source.html#l00786). |

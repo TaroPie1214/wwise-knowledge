@@ -1,0 +1,14 @@
+# AK_PLUGIN_FREE
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Common](dir_d95da6bd1d27077206201426d7500a88.html)
+- [IAkPluginMemAlloc.h](_i_ak_plugin_mem_alloc_8h.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AK\_PLUGIN\_ALLOC](_i_ak_plugin_mem_alloc_8h_abf61bf0827a987e8799a75a4d0e2f615.html#abf61bf0827a987e8799a75a4d0e2f615) | | [AK\_PLUGIN\_ALLOC\_ALIGN](_i_ak_plugin_mem_alloc_8h_a13d68ec9e1946877aefa0499c3aadc92.html#a13d68ec9e1946877aefa0499c3aadc92) | | [AK\_PLUGIN\_DELETE](_i_ak_plugin_mem_alloc_8h_ac6fa6544d3120811e155136866fc24aa.html#ac6fa6544d3120811e155136866fc24aa) | | [AK\_PLUGIN\_FREE](_i_ak_plugin_mem_alloc_8h_a37dac3dbf976521288ecb8f36a16af3a.html#a37dac3dbf976521288ecb8f36a16af3a) | | [AK\_PLUGIN\_NEW](_i_ak_plugin_mem_alloc_8h_aca786bdd3829c192297a174d5d2d2479.html#aca786bdd3829c192297a174d5d2d2479) | | [AK\_PLUGIN\_REALLOC](_i_ak_plugin_mem_alloc_8h_ae671f098aaf0de796b89e8abf1738f5b.html#ae671f098aaf0de796b89e8abf1738f5b) | | [AK\_PLUGIN\_REALLOC\_ALIGN](_i_ak_plugin_mem_alloc_8h_a4b6cf76b6a87396c65ee2ab9970bb388.html#a4b6cf76b6a87396c65ee2ab9970bb388) | | [operator delete](_i_ak_plugin_mem_alloc_8h_a6e3574881c2f019ae12e34e4ef5d5694.html#a6e3574881c2f019ae12e34e4ef5d5694) | | [operator delete](_i_ak_plugin_mem_alloc_8h_a6a433272f92d47413e62edb1b800928a.html#a6a433272f92d47413e62edb1b800928a) | | [operator new](_i_ak_plugin_mem_alloc_8h_ac598a4dede669c56dd79a1e57ae61868.html#ac598a4dede669c56dd79a1e57ae61868) | | [operator new](_i_ak_plugin_mem_alloc_8h_a322ee9f7dce82755e112f143caefc04c.html#a322ee9f7dce82755e112f143caefc04c) | | [◆](#a37dac3dbf976521288ecb8f36a16af3a)AK\_PLUGIN\_FREE |  |  |  |  | | --- | --- | --- | --- | | #define AK\_PLUGIN\_FREE | ( |  | \_allocator, | |  |  |  | \_pvmem | |  | ) |  | ( \_allocator )->Free( ( \_pvmem ) ) |  Macro used to free memory.  参数  |  |  | | --- | --- | | \_allocator | Memory allocator interface. | | \_pvmem | A void pointer to the allocated memory. |  参见  - [在音频插件中分配/取消分配内存](soundengine_plugins.html#fx_memory_alloc) - [AK\_PLUGIN\_ALLOC()](_i_ak_plugin_mem_alloc_8h_abf61bf0827a987e8799a75a4d0e2f615.html#abf61bf0827a987e8799a75a4d0e2f615)  在文件 [IAkPluginMemAlloc.h](_i_ak_plugin_mem_alloc_8h_source.html) 第 [193](_i_ak_plugin_mem_alloc_8h_source.html#l00193) 行定义. |

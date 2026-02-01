@@ -1,0 +1,11 @@
+# FrontRoom
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkPortalParams](struct_ak_portal_params.html)
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AdjacentRoomBleed](struct_ak_portal_params_a8cca592e2a38f8719b6e5a03eddecb07.html#a8cca592e2a38f8719b6e5a03eddecb07) | | [AkPortalParams](struct_ak_portal_params_a86b5aeface9368b1358e6f06582434b5.html#a86b5aeface9368b1358e6f06582434b5) | | [BackRoom](struct_ak_portal_params_a7647cf1bc4a968287f853293903abc41.html#a7647cf1bc4a968287f853293903abc41) | | [bEnabled](struct_ak_portal_params_ae7b926f081a501061439f8db0de6efba.html#ae7b926f081a501061439f8db0de6efba) | | [Extent](struct_ak_portal_params_a74acf1db3eb64175a9368962bdb56ff6.html#a74acf1db3eb64175a9368962bdb56ff6) | | [FrontRoom](struct_ak_portal_params_a09821f2e2d23fcf23e217694ca12e633.html#a09821f2e2d23fcf23e217694ca12e633) | | [Transform](struct_ak_portal_params_ae76feb71ce65d4044d0de2cb4971ade8.html#ae76feb71ce65d4044d0de2cb4971ade8) | | [◆](#a09821f2e2d23fcf23e217694ca12e633)FrontRoom |  | | --- | | [AkRoomID](struct_ak_room_i_d.html) AkPortalParams::FrontRoom |  ID of the room to which the portal connects, in the direction of the Front vector. If a room with this ID has not been added via [AK::SpatialAudio::SetRoom](namespace_a_k_1_1_spatial_audio_ab991cec1e8c9f4d2721fea2d37b285c8.html#ab991cec1e8c9f4d2721fea2d37b285c8), a room will be created with this ID and with default [AkRoomParams](struct_ak_room_params.html "Parameters passed to SetRoom"). If you would later like to update the [AkRoomParams](struct_ak_room_params.html "Parameters passed to SetRoom"), simply call [AK::SpatialAudio::SetRoom](namespace_a_k_1_1_spatial_audio_ab991cec1e8c9f4d2721fea2d37b285c8.html#ab991cec1e8c9f4d2721fea2d37b285c8) again with this same ID.   - [AK::SpatialAudio::SetRoom](namespace_a_k_1_1_spatial_audio_ab991cec1e8c9f4d2721fea2d37b285c8.html#ab991cec1e8c9f4d2721fea2d37b285c8) - [AK::SpatialAudio::RemoveRoom](namespace_a_k_1_1_spatial_audio_a130a8d8fba48b2207aab063ce9ac729c.html#a130a8d8fba48b2207aab063ce9ac729c) - [AkRoomParams](struct_ak_room_params.html)   在文件 [AkSpatialAudioTypes.h](_ak_spatial_audio_types_8h_source.html) 第 [640](_ak_spatial_audio_types_8h_source.html#l00640) 行定义. |

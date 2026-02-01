@@ -1,0 +1,47 @@
+# ak_wwise_plugin_info
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+[所有成员列表](structak__wwise__plugin__info-members.html) |
+[Public 成员函数](#pub-methods) |
+[Public 属性](#pub-attribs)
+
+ak\_wwise\_plugin\_info结构体 参考
+
+`#include <PluginInfo.h>`
+
+|  |  |
+| --- | --- |
+| Public 成员函数 | |
+|  | [ak\_wwise\_plugin\_info](structak__wwise__plugin__info_a45e72d218319e2cf767da54c51e12603.html#a45e72d218319e2cf767da54c51e12603) (const [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) \*in\_companyId, const [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) \*in\_pluginId, const [AkPluginType](_ak_enums_8h_af1a95e76b0e2a003e7edb2ad6f4043f4.html#af1a95e76b0e2a003e7edb2ad6f4043f4) \*in\_pluginType, uint32\_t in\_pluginFlags, [AK::PluginRegistration](class_a_k_1_1_plugin_registration.html) \*in\_pluginRegistration, decltype([Instantiate](structak__wwise__plugin__info_a07aa2bbcd7883b06cadd0f7de9c26d0e.html#a07aa2bbcd7883b06cadd0f7de9c26d0e)) in\_Instantiate, decltype([Disembody](structak__wwise__plugin__info_ab496cacccfb4c2430cbbdd96c327540c.html#ab496cacccfb4c2430cbbdd96c327540c)) in\_Disembody, size\_t in\_arraySize, [ak\_wwise\_plugin\_interface\_array\_item](structak__wwise__plugin__interface__array__item.html) \*in\_interfaces) |
+|  | |
+
+|  |  |
+| --- | --- |
+| Public 属性 | |
+| struct [ak\_wwise\_plugin\_info](structak__wwise__plugin__info.html) \* | [m\_next](structak__wwise__plugin__info_aef3d2bd6f6d199a1c1f77be8bd2d1c58.html#aef3d2bd6f6d199a1c1f77be8bd2d1c58) |
+|  | |
+| const [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) \* | [m\_companyId](structak__wwise__plugin__info_a285fda4ec8e3cd33f7500b13509f2ead.html#a285fda4ec8e3cd33f7500b13509f2ead) |
+|  | |
+| const [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) \* | [m\_pluginId](structak__wwise__plugin__info_a153508011d5ce444e72e54536a80ea62.html#a153508011d5ce444e72e54536a80ea62) |
+|  | |
+| const [AkPluginType](_ak_enums_8h_af1a95e76b0e2a003e7edb2ad6f4043f4.html#af1a95e76b0e2a003e7edb2ad6f4043f4) \* | [m\_pluginType](structak__wwise__plugin__info_a63ab1bc59323cfcc1726728eb2042ce4.html#a63ab1bc59323cfcc1726728eb2042ce4) |
+|  | |
+| uint32\_t | [m\_pluginFlags](structak__wwise__plugin__info_a080cbfdbbb3b3cbdfa948ae2dab5a8cc.html#a080cbfdbbb3b3cbdfa948ae2dab5a8cc) |
+|  | |
+| [AK::PluginRegistration](class_a_k_1_1_plugin_registration.html) \* | [m\_pluginRegistration](structak__wwise__plugin__info_ac0e9f04ea8d9582796901a3540f16e43.html#ac0e9f04ea8d9582796901a3540f16e43) |
+|  | |
+| struct [ak\_wwise\_plugin\_interface\_array\_item](structak__wwise__plugin__interface__array__item.html) \*(\* | [Instantiate](structak__wwise__plugin__info_a07aa2bbcd7883b06cadd0f7de9c26d0e.html#a07aa2bbcd7883b06cadd0f7de9c26d0e) )(struct [ak\_wwise\_plugin\_info](structak__wwise__plugin__info.html) \*in\_pluginInfo) |
+|  | |
+| void(\* | [Disembody](structak__wwise__plugin__info_ab496cacccfb4c2430cbbdd96c327540c.html#ab496cacccfb4c2430cbbdd96c327540c) )(struct [ak\_wwise\_plugin\_interface\_array\_item](structak__wwise__plugin__interface__array__item.html) \*in\_instance) |
+|  | |
+| size\_t | [m\_arraySize](structak__wwise__plugin__info_ad37f4304f0ab56ba3de8d228917ac028.html#ad37f4304f0ab56ba3de8d228917ac028) |
+|  | |
+| struct [ak\_wwise\_plugin\_interface\_array\_item](structak__wwise__plugin__interface__array__item.html) \* | [m\_interfaces](structak__wwise__plugin__info_a0de9cc81a9ecf0224600b59d2a2198e4.html#a0de9cc81a9ecf0224600b59d2a2198e4) |
+|  | |
+
+## 详细描述
+
+在文件 [PluginInfo.h](_plugin_info_8h_source.html) 第 [37](_plugin_info_8h_source.html#l00037) 行定义.

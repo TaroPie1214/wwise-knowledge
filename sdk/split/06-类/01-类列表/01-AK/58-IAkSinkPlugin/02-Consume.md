@@ -1,0 +1,12 @@
+# Consume
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkSinkPlugin](class_a_k_1_1_i_ak_sink_plugin.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [Consume](class_a_k_1_1_i_ak_sink_plugin_a72ea6266f695a0672ee0af6eaca81342.html#a72ea6266f695a0672ee0af6eaca81342) | | [GetSinkPluginType](class_a_k_1_1_i_ak_sink_plugin_aaeddc063d9af4884466d63021d6157ae.html#aaeddc063d9af4884466d63021d6157ae) | | [~IAkSinkPlugin](class_a_k_1_1_i_ak_sink_plugin_a618d074e159bc05447ae15d90a843826.html#a618d074e159bc05447ae15d90a843826) | | [◆](#a72ea6266f695a0672ee0af6eaca81342)Consume() |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual void AK::IAkSinkPlugin::Consume | ( | [AkAudioBuffer](class_ak_audio_buffer.html) \* | *in\_pInputBuffer*, | |  |  | [AkRamp](struct_ak_ramp.html) | *in\_gain* | |  | ) |  |  | | pure virtual |  Present an audio buffer to the sink. The audio buffer is in the native format of the sound engine (typically float, deinterleaved), as specified by io\_rFormat passed to [Init()](class_a_k_1_1_i_ak_sink_plugin_base_ab13c519292782b8e485912cb85506f25.html#ab13c519292782b8e485912cb85506f25). It is up to the plugin to transform it into a format that is compatible with its output. Note that [Consume()](class_a_k_1_1_i_ak_sink_plugin_a72ea6266f695a0672ee0af6eaca81342.html#a72ea6266f695a0672ee0af6eaca81342) is not called if the output for this frame consists of silence. Plugins should detect this in [OnFrameEnd()](class_a_k_1_1_i_ak_sink_plugin_base_af7035e026261662fb26bc747eaee77af.html#af7035e026261662fb26bc747eaee77af).  参见  - [AK::IAkSinkPlugin::IsDataNeeded()](class_a_k_1_1_i_ak_sink_plugin_base_a80d001f02f2c602683951e51a795954e.html#a80d001f02f2c602683951e51a795954e) - [AK::IAkSinkPlugin::OnFrameEnd()](class_a_k_1_1_i_ak_sink_plugin_base_af7035e026261662fb26bc747eaee77af.html#af7035e026261662fb26bc747eaee77af)  参数  |  |  | | --- | --- | | in\_pInputBuffer | Input audio buffer data structure. Plugins should avoid processing data in-place. | | in\_gain | Volume gain to apply to this input (prev corresponds to the beginning, next corresponds to the end of the buffer). | |

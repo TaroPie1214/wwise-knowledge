@@ -1,0 +1,11 @@
+# Instance
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_host\_reference\_set\_v1](structak__wwise__plugin__host__reference__set__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_host\_reference\_set\_v1](structak__wwise__plugin__host__reference__set__v1_a72164e795f020e066c83acdf10bce24d.html#a72164e795f020e066c83acdf10bce24d) | | [GetReferenceGuid](structak__wwise__plugin__host__reference__set__v1_ab1c30800bd53ebe6de06a00460f51260.html#ab1c30800bd53ebe6de06a00460f51260) | | [GetReferenceName](structak__wwise__plugin__host__reference__set__v1_a01ffdd6ec03e9b34be40451daae0e5fc.html#a01ffdd6ec03e9b34be40451daae0e5fc) | | [GetReferenceShortId](structak__wwise__plugin__host__reference__set__v1_a367130c323082754b465cb0acd14f449.html#a367130c323082754b465cb0acd14f449) | | [Instance](structak__wwise__plugin__host__reference__set__v1_adb211da55a8e4b4fcd675851f95b1895.html#adb211da55a8e4b4fcd675851f95b1895) | | [ReferenceHasLinked](structak__wwise__plugin__host__reference__set__v1_aef3b4738132d73ba701d0a98a28b8a6b.html#aef3b4738132d73ba701d0a98a28b8a6b) | | [ReferenceHasUnlinked](structak__wwise__plugin__host__reference__set__v1_affeb8baebf42b16beb1bda37021be88b.html#affeb8baebf42b16beb1bda37021be88b) | | [ReferencePlatformIsLinked](structak__wwise__plugin__host__reference__set__v1_ad90e4d3a5193af8a4474e8c33dc58255.html#ad90e4d3a5193af8a4474e8c33dc58255) | | [SetReferenceByGuid](structak__wwise__plugin__host__reference__set__v1_a6147cb5497358eb7dc984e31ef847667.html#a6147cb5497358eb7dc984e31ef847667) | | [◆](#adb211da55a8e4b4fcd675851f95b1895)Instance |  | | --- | | using [ak\_wwise\_plugin\_host\_reference\_set\_v1::Instance](structak__wwise__plugin__host__reference__set__v1_adb211da55a8e4b4fcd675851f95b1895.html#adb211da55a8e4b4fcd675851f95b1895) = [ak\_wwise\_plugin\_host\_reference\_set\_instance\_v1](structak__wwise__plugin__host__reference__set__instance__v1.html) |  Base host-provided instance type for [ak\_wwise\_plugin\_host\_reference\_set\_v1](structak__wwise__plugin__host__reference__set__v1.html "Interface used to interact with reference sets.").  在文件 [HostReferenceSet.h](_host_reference_set_8h_source.html) 第 [76](_host_reference_set_8h_source.html#l00076) 行定义. |

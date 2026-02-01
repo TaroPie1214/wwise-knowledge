@@ -1,0 +1,11 @@
+# Init
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkFifoQueue](struct_ak_fifo_queue.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AkFifoQueue](struct_ak_fifo_queue_a10df635c81ffe4f8f141b3780407da4e.html#a10df635c81ffe4f8f141b3780407da4e) | | [Dequeue](struct_ak_fifo_queue_a088fbbb4403b4a6c5f7b97b62d511c79.html#a088fbbb4403b4a6c5f7b97b62d511c79) | | [Empty](struct_ak_fifo_queue_ae21a45080f08643b7cdbe76d28e916cf.html#ae21a45080f08643b7cdbe76d28e916cf) | | [Enqueue](struct_ak_fifo_queue_a9534ca2568a6a3170a5c762617eca803.html#a9534ca2568a6a3170a5c762617eca803) | | [Init](struct_ak_fifo_queue_a0063b8407d823b9ffc497007cae92d49.html#a0063b8407d823b9ffc497007cae92d49) | | [Term](struct_ak_fifo_queue_a64ef6b5d61b2009e9c41a0928763b5af.html#a64ef6b5d61b2009e9c41a0928763b5af) | | [~AkFifoQueue](struct_ak_fifo_queue_a3fe4ed6d383be37b071ace71f83a67ff.html#a3fe4ed6d383be37b071ace71f83a67ff) | | [◆](#a0063b8407d823b9ffc497007cae92d49)Init() template<typename T , T TDEFAULT, class TAlloc = ArrayPoolDefault>   |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | [AKRESULT](_ak_enums_8h_a64f7d1f79613cc4dcc49a4efba6caa63.html#a64f7d1f79613cc4dcc49a4efba6caa63) [AkFifoQueue](struct_ak_fifo_queue.html)< T, TDEFAULT, TAlloc >::Init | ( | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | *in\_uMaxEntries* | ) |  | | inline |  Initializes the FifoQueue and allocates memory for the specified number of entries. The number of entries is not growable after initialization.  参数  |  |  | | --- | --- | | in\_uMaxEntries | The number of entries. Must be a power of two. |  在文件 [AkFifoQueue.h](_ak_fifo_queue_8h_source.html) 第 [56](_ak_fifo_queue_8h_source.html#l00056) 行定义.  引用了 [AK\_InsufficientMemory](_ak_enums_8h_source.html#l00062), [AK\_Success](_ak_enums_8h_source.html#l00034), [AKASSERT](_ak_assert_8h_source.html#l00069), [AkAtomicStore64()](_platforms_2_windows_2_ak_atomic_8h_source.html#l00077) , 以及 [AkZeroMemLarge](_common_2_ak_platform_funcs_8h_source.html#l00104). |

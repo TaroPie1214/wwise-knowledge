@@ -1,0 +1,14 @@
+# g_objectMediaInterface
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [RequestedHostInterface< ObjectMedia >](class_a_k_1_1_wwise_1_1_plugin_1_1_requested_host_interface_3_01_object_media_01_4.html)
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [g\_objectMediaInterface](class_a_k_1_1_wwise_1_1_plugin_1_1_requested_host_interface_3_01_object_media_01_4_a1d7619bb2bd7809a56ac76bdb69f452b.html#a1d7619bb2bd7809a56ac76bdb69f452b) | | [HostInterfaceDefinition](class_a_k_1_1_wwise_1_1_plugin_1_1_requested_host_interface_3_01_object_media_01_4_a93e9cb9886dab12f734b0c3419231e8c.html#a93e9cb9886dab12f734b0c3419231e8c) | | [m\_objectMedia](class_a_k_1_1_wwise_1_1_plugin_1_1_requested_host_interface_3_01_object_media_01_4_a41a8f58bfb78858b1c7ebb75358edc3c.html#a41a8f58bfb78858b1c7ebb75358edc3c) | | [RequestedHostInterface](class_a_k_1_1_wwise_1_1_plugin_1_1_requested_host_interface_3_01_object_media_01_4_afc5731593c794ac9ede0dbb97570349d.html#afc5731593c794ac9ede0dbb97570349d) | | [◆](#a1d7619bb2bd7809a56ac76bdb69f452b)g\_objectMediaInterface |  | | --- | | [ObjectMedia](namespace_a_k_1_1_wwise_1_1_plugin_a0325d70f4523c31f1b4f5dc8acdf3e2b.html#a0325d70f4523c31f1b4f5dc8acdf3e2b) ::[Interface](struct_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_object_media___1_1_interface.html)& [AK.Wwise::Plugin::RequestedHostInterface](class_a_k_1_1_wwise_1_1_plugin_1_1_requested_host_interface.html)< [ObjectMedia](namespace_a_k_1_1_wwise_1_1_plugin_a0325d70f4523c31f1b4f5dc8acdf3e2b.html#a0325d70f4523c31f1b4f5dc8acdf3e2b) >::g\_objectMediaInterface = HostInterfaceDefinition::g\_cppinterface |  在文件 [HostObjectMedia.h](_host_object_media_8h_source.html) 第 [622](_host_object_media_8h_source.html#l00622) 行定义. |

@@ -1,0 +1,12 @@
+# Execute
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkOutOfPlaceEffectPlugin](class_a_k_1_1_i_ak_out_of_place_effect_plugin.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [Execute](class_a_k_1_1_i_ak_out_of_place_effect_plugin_afcf5d07295a19209f16538044ac64fef.html#afcf5d07295a19209f16538044ac64fef) | | [TimeSkip](class_a_k_1_1_i_ak_out_of_place_effect_plugin_a8727a7d95bca7d9a5a7ec21a934d7fb9.html#a8727a7d95bca7d9a5a7ec21a934d7fb9) | | [◆](#afcf5d07295a19209f16538044ac64fef)Execute() |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual void AK::IAkOutOfPlaceEffectPlugin::Execute | ( | [AkAudioBuffer](class_ak_audio_buffer.html) \* | *in\_pBuffer*, | |  |  | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | *in\_uInOffset*, | |  |  | [AkAudioBuffer](class_ak_audio_buffer.html) \* | *out\_pBuffer* | |  | ) |  |  | | pure virtual |  Software effect plug-in for out-of-place processing.   |  |  |  |  | | --- | --- | --- | --- | |  | **备注:** An input buffer is provided and will be passed back to [Execute()](class_a_k_1_1_i_ak_out_of_place_effect_plugin_afcf5d07295a19209f16538044ac64fef.html#afcf5d07295a19209f16538044ac64fef) (with an advancing offset based on uValidFrames consumption by the plug-in). The output buffer should be filled entirely by the effect (at which point it can report AK\_DataReady) except on last execution where AK\_NoMoreData should be used. AK\_DataNeeded should be used when more input data is necessary to continue processing.  |  |  | | --- | --- | |  | **备注:** Only the output buffer eState field is looked at by the pipeline to determine the effect state. See [IAkOutOfPlaceEffectPlugin::Execute](soundengine_plugins_effects.html#iakmonadiceffect_execute_outofplace). | |   参数  |  |  | | --- | --- | | in\_pBuffer | Input audio buffer data structure | | in\_uInOffset | Offset position into input buffer data | | out\_pBuffer | Output audio buffer data structure | |

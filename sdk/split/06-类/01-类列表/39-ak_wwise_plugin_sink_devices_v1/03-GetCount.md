@@ -1,0 +1,19 @@
+# GetCount
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_sink\_devices\_v1](structak__wwise__plugin__sink__devices__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_sink\_devices\_v1](structak__wwise__plugin__sink__devices__v1_a00d14c5c24ed012b3c31417a48d23702.html#a00d14c5c24ed012b3c31417a48d23702) | | [GetCount](structak__wwise__plugin__sink__devices__v1_affe92d49a2287df1a99fb0df541b9f79.html#affe92d49a2287df1a99fb0df541b9f79) | | [GetDeviceID](structak__wwise__plugin__sink__devices__v1_ad322757eaa29d389f70cc8a313d61149.html#ad322757eaa29d389f70cc8a313d61149) | | [GetName](structak__wwise__plugin__sink__devices__v1_af5aaf3c1f014dd975d7454f188f747e6.html#af5aaf3c1f014dd975d7454f188f747e6) | | [Instance](structak__wwise__plugin__sink__devices__v1_aa5f405106aa1af9ef69f1c5093ebe2f4.html#aa5f405106aa1af9ef69f1c5093ebe2f4) | | [◆](#affe92d49a2287df1a99fb0df541b9f79)GetCount |  | | --- | | int(\* ak\_wwise\_plugin\_sink\_devices\_v1::GetCount) (const struct [ak\_wwise\_plugin\_sink\_devices\_instance\_v1](structak__wwise__plugin__sink__devices__instance__v1.html) \*in\_this) |  Get a count of the number of interfaces currently available.  Provided by your plug-in, this should return a count.   |  |  | | --- | --- | |  | **备注:** Due to the unpredictable nature of hardware configuration changes, an unpadded, basic system would return a configuration that can change between a GetCount and subsequent objects retrieval.  As a plug-in designer, you are responsible to address this by returning adequate values that make sense as a whole.  To guide you, Sink Devices interface is used for retrieval and data copy in a tight loop over a single thread at once. Host will retrieve the count, followed by the Name (GetName) and DeviceID (GetDeviceID), in the order the compiler sees fit. Data is expected to survive for the amount of time this tight loop exists.  int count = [m\_interface](structak__wwise__plugin__base__interface_a146b64003437eb7327201578ee814bc9.html#a146b64003437eb7327201578ee814bc9)->GetCount(m\_instance);  for (int i = 0; i < count; ++i)  {  result.emplace\_back(  [m\_interface](structak__wwise__plugin__base__interface_a146b64003437eb7327201578ee814bc9.html#a146b64003437eb7327201578ee814bc9)->GetName(m\_instance, i),  [m\_interface](structak__wwise__plugin__base__interface_a146b64003437eb7327201578ee814bc9.html#a146b64003437eb7327201578ee814bc9)->GetDeviceID(m\_instance, i)  );  }  A proposal is to use GetCount to internally retrieve the device names and IDs, make a static internal cache, and then return name and device ID based on this cache.  You can also spawn an event listener or an update thread, and ensure the data is up to date when the calls come in, and block updates until all calls are accounted for. |   参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. |  返回  int Count of the number of interfaces available.  在文件 [SinkDevices.h](_sink_devices_8h_source.html) 第 [111](_sink_devices_8h_source.html#l00111) 行定义.  被这些函数引用 [AK.Wwise::Plugin::V1::SinkDevices::Interface::Interface()](_sink_devices_8h_source.html#l00206). |
+
+[ak\_wwise\_plugin\_base\_interface::m\_interface](structak__wwise__plugin__base__interface_a146b64003437eb7327201578ee814bc9.html#a146b64003437eb7327201578ee814bc9)
+
+ak\_wwise\_plugin\_interface\_type m\_interface
+
+Interface type (see ak\_wwise\_plugin\_interface\_type)
+
+**Definition:** [PluginBaseInterface.h:126](_plugin_base_interface_8h_source.html#l00126)

@@ -1,0 +1,14 @@
+# m_pluginInfo
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [CountInterfaces](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_a11cb52429806de9a1c2854226b6fc7cb.html#a11cb52429806de9a1c2854226b6fc7cb) | | [Disembody](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_ad42434ff32b9b1a7777ae4f522901c78.html#ad42434ff32b9b1a7777ae4f522901c78) | | [GenerateInterface](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_af8d8160778bc3a90950e679897ade9b5.html#af8d8160778bc3a90950e679897ade9b5) | | [GenerateInterfaceArray](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_a7a0ab158d89c7725bd7f85c8aa567b85.html#a7a0ab158d89c7725bd7f85c8aa567b85) | | [GenerateInterfaceArray](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_a51ea4ef90b966cdee02219dda3b1a345.html#a51ea4ef90b966cdee02219dda3b1a345) | | [Instantiate](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_a79fe388f6b6a4dc266cd968394debc74.html#a79fe388f6b6a4dc266cd968394debc74) | | [m\_interfaceArray](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_a925f1378056ddb536cb9179084578971.html#a925f1378056ddb536cb9179084578971) | | [m\_pluginInfo](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_af7bbc597d8b2e45862d900cc784db7bd.html#af7bbc597d8b2e45862d900cc784db7bd) | | [PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_aaee359fa086569f963cdfeba37916af5.html#aaee359fa086569f963cdfeba37916af5) | | [PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_aaa855eb952f4fd32eb5c1552f60b0690.html#aaa855eb952f4fd32eb5c1552f60b0690) | | [~PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator_a03ae8fe30f2e26a7dc0b7a6f689e0f39.html#a03ae8fe30f2e26a7dc0b7a6f689e0f39) | | [◆](#af7bbc597d8b2e45862d900cc784db7bd)m\_pluginInfo template<typename PluginT >   |  | | --- | | [PluginInfo](namespace_a_k_1_1_wwise_1_1_plugin_a69141ebf4159597c1e76aad07862c823.html#a69141ebf4159597c1e76aad07862c823) [AK.Wwise::Plugin::PluginInfoGenerator](struct_a_k_1_1_wwise_1_1_plugin_1_1_plugin_info_generator.html)< PluginT >::m\_pluginInfo |  The unique m\_pluginInfo used in the [ak\_wwise\_plugin\_container](structak__wwise__plugin__container.html "Root interface allowing a logical unit (variable, library) to contain more than one interface.") for that particular plug-in.  Contains the m\_interfaceArray member variable.  在文件 [PluginInfoGenerator.h](_plugin_info_generator_8h_source.html) 第 [756](_plugin_info_generator_8h_source.html#l00756) 行定义. |

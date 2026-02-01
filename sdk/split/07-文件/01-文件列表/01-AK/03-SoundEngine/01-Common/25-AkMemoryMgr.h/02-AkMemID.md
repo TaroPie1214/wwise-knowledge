@@ -1,0 +1,14 @@
+# AkMemID
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Common](dir_d95da6bd1d27077206201426d7500a88.html)
+- [AkMemoryMgr.h](_ak_memory_mgr_8h.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AK\_MEMDEBUG](_ak_memory_mgr_8h_a65db4f89b8a435b213e4a494940a492d.html#a65db4f89b8a435b213e4a494940a492d) | | [AkMemID](_ak_memory_mgr_8h_a3af3228fe8c3640b2d2be6d1102dd516.html#a3af3228fe8c3640b2d2be6d1102dd516) | | [◆](#a3af3228fe8c3640b2d2be6d1102dd516)AkMemID |  | | --- | | enum [AkMemID](_ak_memory_mgr_8h_a3af3228fe8c3640b2d2be6d1102dd516.html#a3af3228fe8c3640b2d2be6d1102dd516) |  Memory category IDs. If this is modified, the Comm version should be bumped as well, to keep Authoring in line   | 枚举值 | | | --- | --- | | AkMemID\_Object | Generic placeholder for allocations tied to the Wwise project. | | AkMemID\_Event | Events from the Wwise project. | | AkMemID\_Structure | Structures from the Wwise project. | | AkMemID\_Media | Media from the Wwise project. | | AkMemID\_GameObject | Game Objects and related. | | AkMemID\_Processing | Anything tied to instancing and processing of the DSP graph. | | AkMemID\_ProcessingPlugin | Plug-in allocations related to the DSP graph. | | AkMemID\_Streaming | Streaming Manager objects. | | AkMemID\_StreamingIO | Streaming Manager I/O memory. | | AkMemID\_SpatialAudio | Spatial audio. | | AkMemID\_SpatialAudioGeometry | Spatial audio geometry data. | | AkMemID\_SpatialAudioPaths | Spatial audio paths data. | | AkMemID\_GameSim | Game Simulator allocations. | | AkMemID\_MonitorQueue | Monitor Queue. | | AkMemID\_Profiler | Profiler. | | AkMemID\_FilePackage | File packager. | | AkMemID\_SoundEngine | Base sound engine allocations (managers, etc). | | AkMemID\_Integration | Game engine integration allocations. | | AkMemID\_JobMgr | Allocations for Sound Engine jobs and job dependencies. | | AkMemID\_TempAudioRender | Temporary allocations for audio render. | | AkMemID\_BookmarkAlloc | Allocations serviced by the bookmark allocator | | AkMemID\_NUM | Category count. | | AkMemID\_MASK | Mask for category IDs. | | AkMemType\_Media | Media memory type bit. | | AkMemType\_Device | Device memory type bit. | | AkMemType\_NoTrack | Do not track this allocation. |   在文件 [AkMemoryMgr.h](_ak_memory_mgr_8h_source.html) 第 [46](_ak_memory_mgr_8h_source.html#l00046) 行定义. |

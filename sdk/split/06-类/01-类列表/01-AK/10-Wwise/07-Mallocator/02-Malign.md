@@ -1,0 +1,13 @@
+# Malign
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Mallocator](class_a_k_1_1_wwise_1_1_mallocator.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [Free](class_a_k_1_1_wwise_1_1_mallocator_a642cb0d20450fe6fb88f3e954b8306da.html#a642cb0d20450fe6fb88f3e954b8306da) | | [Malign](class_a_k_1_1_wwise_1_1_mallocator_a2836df222c69be7e427e46398c346a3f.html#a2836df222c69be7e427e46398c346a3f) | | [Malloc](class_a_k_1_1_wwise_1_1_mallocator_a7b6c51c73554f1f56787fd6ce5a0fac6.html#a7b6c51c73554f1f56787fd6ce5a0fac6) | | [Realloc](class_a_k_1_1_wwise_1_1_mallocator_a81450889d62616bd2938fb438c0f0648.html#a81450889d62616bd2938fb438c0f0648) | | [ReallocAligned](class_a_k_1_1_wwise_1_1_mallocator_aa4b93a4c117a59361704883d501491a6.html#aa4b93a4c117a59361704883d501491a6) | | [◆](#a2836df222c69be7e427e46398c346a3f)Malign() |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual void\* AK.Wwise::Mallocator::Malign | ( | size\_t | *in\_uSize*, | |  |  | size\_t | *in\_uAlignment*, | |  |  | const char \* | *in\_pszFile*, | |  |  | [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | *in\_uLine* | |  | ) |  |  | | inlineoverridevirtual |  Allocate memory.  返回  A pointer to the newly-allocated memory.  参见  - [在音频插件中分配/取消分配内存](soundengine_plugins.html#fx_memory_alloc)  参数  |  |  | | --- | --- | | in\_uSize | Allocation size in bytes | | in\_uAlignment | Required alignment in bytes | | in\_pszFile | Allocation file name (for tracking purposes, unused in Release) | | in\_uLine | Allocation line number (for tracking purposes, unused in Release) |  实现了 [AK::IAkPluginMemAlloc](class_a_k_1_1_i_ak_plugin_mem_alloc_ac0a62d0ecaf499a8e970749f7dab997c.html#ac0a62d0ecaf499a8e970749f7dab997c).  在文件 [AkAllocator.h](_ak_allocator_8h_source.html) 第 [63](_ak_allocator_8h_source.html#l00063) 行定义. |

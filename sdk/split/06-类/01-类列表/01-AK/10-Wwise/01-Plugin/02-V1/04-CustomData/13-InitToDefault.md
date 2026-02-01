@@ -1,0 +1,15 @@
+# InitToDefault
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [V1](namespace_a_k_1_1_wwise_1_1_plugin_1_1_v1.html)
+- [CustomData](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [CustomData](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_adc7bfcf5eeb05e7c37da46198462c3b4.html#adc7bfcf5eeb05e7c37da46198462c3b4) | | [GetInstancePointer](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_ae0ca944f33e61c9518dadcf39e169bc4.html#ae0ca944f33e61c9518dadcf39e169bc4) | | [GetInstancePointer](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a3cc7fd45754ad20da92220a0c84eee3e.html#a3cc7fd45754ad20da92220a0c84eee3e) | | [GetInterfacePointer](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_af9fef76535336ca06b0c14462f697a91.html#af9fef76535336ca06b0c14462f697a91) | | [GetPluginData](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a6740b8fc3bfeec655cfcbe5fd69e1b98.html#a6740b8fc3bfeec655cfcbe5fd69e1b98) | | [InitFromInstance](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a72ae7aacdfaf7739f0f47762f82b915a.html#a72ae7aacdfaf7739f0f47762f82b915a) | | [InitFromWorkunit](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a98ef6df5fb929064e5bb3ffef29a1e10.html#a98ef6df5fb929064e5bb3ffef29a1e10) | | [InitToDefault](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_ace2504ae8a0dc5404e5a9035486ccdb5.html#ace2504ae8a0dc5404e5a9035486ccdb5) | | [Instance](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a9addbbb9bbd3655991ea99ad25cc90fb.html#a9addbbb9bbd3655991ea99ad25cc90fb) | | [OnDelete](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a4d67d63dcec584535d1faa0ec093b86d.html#a4d67d63dcec584535d1faa0ec093b86d) | | [Save](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_aa530abda0c93227689027585a756aa4b.html#aa530abda0c93227689027585a756aa4b) | | [~CustomData](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_custom_data_a7c30aef597fc9073ba8e344709d36f95.html#a7c30aef597fc9073ba8e344709d36f95) | | [◆](#ace2504ae8a0dc5404e5a9035486ccdb5)InitToDefault() |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  | | --- | --- | --- | --- | --- | | virtual void AK.Wwise::Plugin::V1::CustomData::InitToDefault | ( |  | ) |  | | inlinevirtual |  Initializes the plug-in's custom data to its default values.  This method is mutually exclusive with the other Init methods.  在文件 [CustomData.h](_custom_data_8h_source.html) 第 [300](_custom_data_8h_source.html#l00300) 行定义. |

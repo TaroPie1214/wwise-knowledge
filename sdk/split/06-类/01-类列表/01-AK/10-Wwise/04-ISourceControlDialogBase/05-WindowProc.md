@@ -1,0 +1,13 @@
+# WindowProc
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [ISourceControlDialogBase](class_a_k_1_1_wwise_1_1_i_source_control_dialog_base.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetDialog](class_a_k_1_1_wwise_1_1_i_source_control_dialog_base_ac2e9e65eb75db832fc7ced9a398b1f4c.html#ac2e9e65eb75db832fc7ced9a398b1f4c) | | [GetResourceHandle](class_a_k_1_1_wwise_1_1_i_source_control_dialog_base_a32a21b3e259526ad996d00ac946ca30f.html#a32a21b3e259526ad996d00ac946ca30f) | | [HasHelp](class_a_k_1_1_wwise_1_1_i_source_control_dialog_base_a8efe7c9ea503058b2acbf848e680245f.html#a8efe7c9ea503058b2acbf848e680245f) | | [Help](class_a_k_1_1_wwise_1_1_i_source_control_dialog_base_a40fff8f04f4b6532f9a21c1b794a5106.html#a40fff8f04f4b6532f9a21c1b794a5106) | | [WindowProc](class_a_k_1_1_wwise_1_1_i_source_control_dialog_base_afc8ab1f13cc6f3be3b423bb58597d4e3.html#afc8ab1f13cc6f3be3b423bb58597d4e3) | | [◆](#afc8ab1f13cc6f3be3b423bb58597d4e3)WindowProc() |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual bool AK.Wwise::ISourceControlDialogBase::WindowProc | ( | HWND | *in\_hWnd*, | |  |  | UINT | *in\_message*, | |  |  | WPARAM | *in\_wParam*, | |  |  | LPARAM | *in\_lParam*, | |  |  | LRESULT & | *out\_lResult* | |  | ) |  |  | | pure virtual |  Window message handler for the dialog. This is very similar to a standard WIN32 window procedure.  返回  True if the message has been processed by the plug-in, False otherwise  参数  |  |  | | --- | --- | | in\_hWnd | The window handle of the dialog | | in\_message | The incoming message. This is a standard Windows message ID (e.g. WM\_PAINT) | | in\_wParam | The WPARAM of the message (see MSDN) | | in\_lParam | The LPARAM of the message (see MSDN) | | out\_lResult | The returned value if the message has been processed. It is only considered if the method also returns True | |

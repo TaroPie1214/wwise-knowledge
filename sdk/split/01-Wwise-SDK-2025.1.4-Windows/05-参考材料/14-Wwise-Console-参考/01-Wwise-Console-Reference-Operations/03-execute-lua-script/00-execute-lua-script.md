@@ -1,0 +1,66 @@
+# execute-lua-script
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+execute-lua-script
+
+Execute a Lua script. Optionally, specify additional Lua search paths, additional modules, and additional Lua scripts to load prior to the main script. The script can return a value. All arguments will be passed to the Lua script in the "wa\_args" global variable.
+
+# Arguments
+
+**`FILE`**
+
+Specify the file path of the main Lua script to load and execute.
+
+[参数架构](ak_wwise_cli_executeluascript_args_schema.html)
+
+# Options
+
+**`--allow-migration`**
+
+允许在执行操作前迁移并保存 Wwise 工程。
+
+**`--do-file LUAFILE1`**  
+**`--do-file LUAFILE1 LUAFILE2 ...`**  
+**`--do-file LUAFILE1 --do-file LUAFILE2 ...`**
+
+Specify an array of Lua files to load before the main Lua script is loaded and executed. This option must be followed by a absolute file name.
+
+**`--lua-path PATH1`**  
+**`--lua-path PATH1 PATH2 ...`**  
+**`--lua-path PATH1 --lua-path PATH2 ...`**
+
+Specify a search path for Lua modules loaded. This option must be followed by a Lua path. Ex: '–lua-path C:\module\?.lua'
+
+**`--no-color`**
+
+Disable ANSI coded terminal colors
+
+**`--project PROJECT`**
+
+When no project is specified, no project is loaded. See [ak.wwise.console.project.open](ak_wwise_console_project_open.html) for information on how to open a project.  
+The path to the project file (.wproj).
+
+**`--require MODULE1`**  
+**`--require MODULE1 MODULE2 ...`**  
+**`--require MODULE1 --require MODULE2 ...`**
+
+Specify an array of Lua module to load at runtime using the require system. This option must be followed by a Lua module name. The module name must be found in the Lua path. Ex: '–require debug.lua'
+
+**`--watchdog-timeout 30`**
+
+Time in seconds to set as a watchdog threshold. The watchdog is signaled every time a WAAPI function call is made. By default, the value is 0 and the watchdog is disabled.  
+Range: [0,\*]
+
+[选项架构](ak_wwise_cli_executeluascript_options_schema.html)
+
+# Result
+
+Result returned by the Lua script  
+A WwiseConsole.exe exit code of 0 means success, 1 means at least one error (and potentially warnings) occurred, and 2 means that only warnings occurred.
+
+[结果架构](ak_wwise_cli_executeluascript_result_schema.html)
+
+有关 Wwise Console 的详细信息，请参阅 [使用命令行](bankscommandline.html) 章节。

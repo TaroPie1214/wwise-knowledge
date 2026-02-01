@@ -1,0 +1,14 @@
+# GetNextAssoc
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [SourceControlContainers](namespace_a_k_1_1_wwise_1_1_source_control_containers.html)
+- [IAkMap](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetCount](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a5822aa9a8e1d53a59e3fe2c3ff85e2c2.html#a5822aa9a8e1d53a59e3fe2c3ff85e2c2) | | [GetNextAssoc](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a6a0bdc0b905ae3c49901c0390f8e4753.html#a6a0bdc0b905ae3c49901c0390f8e4753) | | [GetSize](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_aed450ac0d4803f4205a5a492c627079c.html#aed450ac0d4803f4205a5a492c627079c) | | [GetStartPosition](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a9c84f47060455e8e8aee137356f1fc86.html#a9c84f47060455e8e8aee137356f1fc86) | | [IsEmpty](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_aaf24b869353ee1cfd7d036dc8c08ce81.html#aaf24b869353ee1cfd7d036dc8c08ce81) | | [Lookup](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a35f22486af1ad40c6770d8c299f7a866.html#a35f22486af1ad40c6770d8c299f7a866) | | [operator[]](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a567ef3a78bcf1c87511abf48b9bbdbad.html#a567ef3a78bcf1c87511abf48b9bbdbad) | | [RemoveAll](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a2183f8657afd77ab5d1d0fae5f70b8fd.html#a2183f8657afd77ab5d1d0fae5f70b8fd) | | [RemoveKey](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a2496402477b50e0b204e9016b1efe88a.html#a2496402477b50e0b204e9016b1efe88a) | | [SetAt](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map_a6400d73e233a92a7e20a4dfb1bbbf7ab.html#a6400d73e233a92a7e20a4dfb1bbbf7ab) | | [◆](#a6a0bdc0b905ae3c49901c0390f8e4753)GetNextAssoc() template<class Key , class Arg\_Key , class Value , class Arg\_Value >   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual void [AK.Wwise::SourceControlContainers::IAkMap](class_a_k_1_1_wwise_1_1_source_control_containers_1_1_i_ak_map.html)< Key, Arg\_Key, Value, Arg\_Value >::GetNextAssoc | ( | [AkPos](namespace_a_k_1_1_wwise_1_1_source_control_containers_a92a2b54b670dbd29047b46e687b916e0.html#a92a2b54b670dbd29047b46e687b916e0) & | *in\_rNextPosition*, | |  |  | Key & | *in\_rKey*, | |  |  | Value & | *in\_rValue* | |  | ) |  | const | | pure virtual | |

@@ -1,0 +1,11 @@
+# NotifyReferenceChanged
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_notifications\_reference\_set\_v1](structak__wwise__plugin__notifications__reference__set__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_notifications\_reference\_set\_v1](structak__wwise__plugin__notifications__reference__set__v1_a38b89496a0dd3b8c57d0eb11f3bf37d7.html#a38b89496a0dd3b8c57d0eb11f3bf37d7) | | [Instance](structak__wwise__plugin__notifications__reference__set__v1_a870d2ce039dd748e690e2b475765ae11.html#a870d2ce039dd748e690e2b475765ae11) | | [NotifyReferenceChanged](structak__wwise__plugin__notifications__reference__set__v1_a3daf589e21b7851c22b534d5b15df4c2.html#a3daf589e21b7851c22b534d5b15df4c2) | | [◆](#a3daf589e21b7851c22b534d5b15df4c2)NotifyReferenceChanged |  | | --- | | void(\* ak\_wwise\_plugin\_notifications\_reference\_set\_v1::NotifyReferenceChanged) (struct [ak\_wwise\_plugin\_notifications\_reference\_set\_instance\_v1](structak__wwise__plugin__notifications__reference__set__instance__v1.html) \*in\_this, const GUID \*in\_guidPlatform, const char \*in\_pszReferenceName) |  This function is called by Wwise when a plug-in reference changes.  For example, data can change through interaction with a UI control bound to a reference, or through undo/redo operations.  参见  - [Reference Set Notification](plugin_backend_model.html#wwiseplugin_referenceset_notification)  参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. | | [in] | in\_guidPlatform | The unique ID of the queried platform. | | [in] | in\_pszReferenceName | The name of the affected reference. |  在文件 [HostReferenceSet.h](_host_reference_set_8h_source.html) 第 [244](_host_reference_set_8h_source.html#l00244) 行定义.  被这些函数引用 [AK.Wwise::Plugin::Notifications::ReferenceSet\_::Interface::Interface()](_host_reference_set_8h_source.html#l00465). |

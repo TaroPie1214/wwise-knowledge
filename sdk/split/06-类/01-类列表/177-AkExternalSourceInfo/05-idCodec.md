@@ -1,0 +1,11 @@
+# idCodec
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkExternalSourceInfo](struct_ak_external_source_info.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AkExternalSourceInfo](struct_ak_external_source_info_aadca68de3836d3a3f09d38692d654975.html#aadca68de3836d3a3f09d38692d654975) | | [AkExternalSourceInfo](struct_ak_external_source_info_a27cb9c0e9d174362467bebf3b7271fc4.html#a27cb9c0e9d174362467bebf3b7271fc4) | | [AkExternalSourceInfo](struct_ak_external_source_info_a1ff2f5e1cf304ee76c754c69cd78a0ca.html#a1ff2f5e1cf304ee76c754c69cd78a0ca) | | [AkExternalSourceInfo](struct_ak_external_source_info_ac30289ccfb1a5bffa38567c0775f08a7.html#ac30289ccfb1a5bffa38567c0775f08a7) | | [idCodec](struct_ak_external_source_info_aa414d16c9d27dee981e13ce4ba8da2d5.html#aa414d16c9d27dee981e13ce4ba8da2d5) | | [idFile](struct_ak_external_source_info_aa97a8c8dfdd8e18a508bac3045ae71c8.html#aa97a8c8dfdd8e18a508bac3045ae71c8) | | [iExternalSrcCookie](struct_ak_external_source_info_a198a69d12cc42071f764a6f793060c77.html#a198a69d12cc42071f764a6f793060c77) | | [pInMemory](struct_ak_external_source_info_a5eda2911fdb2f31d42474eb8e62218ac.html#a5eda2911fdb2f31d42474eb8e62218ac) | | [szFile](struct_ak_external_source_info_af29151c09e6b12f9b4f5b4c9a9389ba1.html#af29151c09e6b12f9b4f5b4c9a9389ba1) | | [uiMemorySize](struct_ak_external_source_info_a32be3912e313caa6c1882103292c58b8.html#a32be3912e313caa6c1882103292c58b8) | | [◆](#aa414d16c9d27dee981e13ce4ba8da2d5)idCodec |  | | --- | | [AkCodecID](_ak_typedefs_8h_ae3cd7c34d31c81aa8ac649ac3a0e2206.html#ae3cd7c34d31c81aa8ac649ac3a0e2206) AkExternalSourceInfo::idCodec |  Codec ID for the file. One of the audio formats defined in AkTypes.h (AKCODECID\_XXX)  在文件 [AkSoundEngineTypes.h](_ak_sound_engine_types_8h_source.html) 第 [189](_ak_sound_engine_types_8h_source.html#l00189) 行定义.  被这些函数引用 [AkExternalSourceInfo()](_ak_sound_engine_types_8h_source.html#l00131). |

@@ -1,0 +1,11 @@
+# NotifyPropertyChanged
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_notifications\_property\_set\_v1](structak__wwise__plugin__notifications__property__set__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_notifications\_property\_set\_v1](structak__wwise__plugin__notifications__property__set__v1_aa0bb498d5a4cf51b639b6bbf7f4e182d.html#aa0bb498d5a4cf51b639b6bbf7f4e182d) | | [Instance](structak__wwise__plugin__notifications__property__set__v1_a914951e9383ed25224afd6b9c435f1a7.html#a914951e9383ed25224afd6b9c435f1a7) | | [NotifyPropertyChanged](structak__wwise__plugin__notifications__property__set__v1_ac5b5e93308665275465df0ecff5eb2c3.html#ac5b5e93308665275465df0ecff5eb2c3) | | [◆](#ac5b5e93308665275465df0ecff5eb2c3)NotifyPropertyChanged |  | | --- | | void(\* ak\_wwise\_plugin\_notifications\_property\_set\_v1::NotifyPropertyChanged) (struct [ak\_wwise\_plugin\_notifications\_property\_set\_instance\_v1](structak__wwise__plugin__notifications__property__set__instance__v1.html) \*in\_this, const GUID \*in\_guidPlatform, const char \*in\_pszPropertyName) |  This function is called by Wwise when a plug-in property changes.  For example, data can change through interaction with a UI control bound to a property, or through undo/redo operations.  This function is not called on the Object Store or any inner property sets.  参见  - [属性值通知](plugin_backend_model.html#wwiseplugin_propertyset_notification)  参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. | | [in] | in\_guidPlatform | The unique ID of the queried platform. | | [in] | in\_pszPropertyName | The name of the affected property. |  在文件 [HostPropertySet.h](_v1_2_host_property_set_8h_source.html) 第 [1020](_v1_2_host_property_set_8h_source.html#l01020) 行定义.  被这些函数引用 [AK.Wwise::Plugin::V1::Notifications::PropertySet\_::Interface::Interface()](_v1_2_host_property_set_8h_source.html#l02371). |

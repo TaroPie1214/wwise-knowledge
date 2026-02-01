@@ -1,0 +1,56 @@
+# ConstIteratorEx
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkHashList](class_ak_hash_list.html)
+- [ConstIteratorEx](struct_ak_hash_list_1_1_const_iterator_ex.html)
+
+[所有成员列表](struct_ak_hash_list_1_1_const_iterator_ex-members.html) |
+[Public 成员函数](#pub-methods) |
+[Public 属性](#pub-attribs)
+
+AkHashList< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIteratorEx结构体 参考
+
+`#include <AkHashList.h>`
+
+类 AkHashList< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIteratorEx 继承关系图:
+
+![](../../../../images/struct_ak_hash_list_1_1_const_iterator_ex.png)
+
+|  |  |
+| --- | --- |
+| Public 成员函数 | |
+| [ConstIteratorEx](struct_ak_hash_list_1_1_const_iterator_ex.html) & | [operator++](struct_ak_hash_list_1_1_const_iterator_ex_a047821e28e5880fb4cd59592e3415621.html#a047821e28e5880fb4cd59592e3415621) () |
+|  | |
+| - Public 成员函数 继承自 [AkHashList< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIterator](struct_ak_hash_list_1_1_const_iterator.html) | |
+| [ConstIterator](struct_ak_hash_list_1_1_const_iterator.html) & | [operator++](struct_ak_hash_list_1_1_const_iterator_a7b238e8b1f587104b3e992d917777482.html#a7b238e8b1f587104b3e992d917777482) () |
+|  | |
+| const [MapStruct](struct_map_struct.html)< T\_KEY, T\_ITEM > & | [operator\*](struct_ak_hash_list_1_1_const_iterator_adf997c915eddbf4a7a4441bc8ca4777e.html#adf997c915eddbf4a7a4441bc8ca4777e) () |
+|  | |
+| [MapStruct](struct_map_struct.html)< T\_KEY, T\_ITEM > \* | [operator->](struct_ak_hash_list_1_1_const_iterator_a141d30b92ffd19dd923ba0786a17c0f1.html#a141d30b92ffd19dd923ba0786a17c0f1) () const |
+|  | |
+| bool | [operator==](struct_ak_hash_list_1_1_const_iterator_a8d18728aa829eaa4530289c50d174cde.html#a8d18728aa829eaa4530289c50d174cde) (const [ConstIterator](struct_ak_hash_list_1_1_const_iterator.html) &in\_rOp) const |
+|  | |
+| bool | [operator!=](struct_ak_hash_list_1_1_const_iterator_a549cae93e79d5a81e332e649ddc04497.html#a549cae93e79d5a81e332e649ddc04497) (const [ConstIterator](struct_ak_hash_list_1_1_const_iterator.html) &in\_rOp) const |
+|  | |
+
+|  |  |
+| --- | --- |
+| Public 属性 | |
+| [Item](struct_ak_hash_list_1_1_item.html) \* | [pPrevItem](struct_ak_hash_list_1_1_const_iterator_ex_ad5e3655c1c5e0619d70bc5d88935a059.html#ad5e3655c1c5e0619d70bc5d88935a059) |
+|  | |
+| - Public 属性 继承自 [AkHashList< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIterator](struct_ak_hash_list_1_1_const_iterator.html) | |
+| const [AkHashList](class_ak_hash_list.html)< T\_KEY, T\_ITEM, T\_ALLOC >::[HashTableArray](class_ak_hash_list_ac85351466e0d949d8951813f0b5ca064.html#ac85351466e0d949d8951813f0b5ca064) \* | [pTable](struct_ak_hash_list_1_1_const_iterator_a2dcb88a6fd56901633a05aa199635466.html#a2dcb88a6fd56901633a05aa199635466) |
+|  | |
+| [AkHashType](_ak_hash_list_8h_a93e50723472a35369bc80e47c3bb09c9.html#a93e50723472a35369bc80e47c3bb09c9) | [uiTable](struct_ak_hash_list_1_1_const_iterator_afeb9f2b60ea1718752ef8e26d004340c.html#afeb9f2b60ea1718752ef8e26d004340c) |
+|  | |
+| [Item](struct_ak_hash_list_1_1_item.html) \* | [pItem](struct_ak_hash_list_1_1_const_iterator_a5fe87230e12c80437761d6a24637658f.html#a5fe87230e12c80437761d6a24637658f) |
+|  | |
+
+## 详细描述
+
+### template<class T\_KEY, class T\_ITEM, typename T\_ALLOC = ArrayPoolDefault> struct AkHashList< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIteratorEx
+
+在文件 [AkHashList.h](_ak_hash_list_8h_source.html) 第 [164](_ak_hash_list_8h_source.html#l00164) 行定义.

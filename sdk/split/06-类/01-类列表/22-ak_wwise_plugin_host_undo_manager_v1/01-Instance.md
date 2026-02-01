@@ -1,0 +1,11 @@
+# Instance
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_host\_undo\_manager\_v1](structak__wwise__plugin__host__undo__manager__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AddCustomEvent](structak__wwise__plugin__host__undo__manager__v1_a380b66ee7d210b281755d781f878c104.html#a380b66ee7d210b281755d781f878c104) | | [ak\_wwise\_plugin\_host\_undo\_manager\_v1](structak__wwise__plugin__host__undo__manager__v1_a01cd4e72126c42aaaefb0b7bd8499037.html#a01cd4e72126c42aaaefb0b7bd8499037) | | [CanAddEvent](structak__wwise__plugin__host__undo__manager__v1_a7d1010234961d4cc18150521ef401ab3.html#a7d1010234961d4cc18150521ef401ab3) | | [CanLogUndos](structak__wwise__plugin__host__undo__manager__v1_a941b1ba71e6e65529cfc8ab2e2277ee2.html#a941b1ba71e6e65529cfc8ab2e2277ee2) | | [CloseGroup](structak__wwise__plugin__host__undo__manager__v1_aca58a90c1bf1bd0c1585b6c7f24ceb0c.html#aca58a90c1bf1bd0c1585b6c7f24ceb0c) | | [Instance](structak__wwise__plugin__host__undo__manager__v1_a6d9c1167d6b6a3923e13ae1ae5dd0d5f.html#a6d9c1167d6b6a3923e13ae1ae5dd0d5f) | | [IsBusy](structak__wwise__plugin__host__undo__manager__v1_acff0bd05baeada26c0e793545632c1eb.html#acff0bd05baeada26c0e793545632c1eb) | | [OpenGroup](structak__wwise__plugin__host__undo__manager__v1_a0d3457469940d6c51413b280190f4b13.html#a0d3457469940d6c51413b280190f4b13) | | [◆](#a6d9c1167d6b6a3923e13ae1ae5dd0d5f)Instance |  | | --- | | using [ak\_wwise\_plugin\_host\_undo\_manager\_v1::Instance](structak__wwise__plugin__host__undo__manager__v1_a6d9c1167d6b6a3923e13ae1ae5dd0d5f.html#a6d9c1167d6b6a3923e13ae1ae5dd0d5f) = [ak\_wwise\_plugin\_host\_undo\_manager\_instance\_v1](structak__wwise__plugin__host__undo__manager__instance__v1.html) |  Base host-provided instance type for [ak\_wwise\_plugin\_host\_undo\_manager\_v1](structak__wwise__plugin__host__undo__manager__v1.html "Host API to handle the plug-in's undo operations.").  在文件 [HostUndoManager.h](_host_undo_manager_8h_source.html) 第 [134](_host_undo_manager_8h_source.html#l00134) 行定义. |

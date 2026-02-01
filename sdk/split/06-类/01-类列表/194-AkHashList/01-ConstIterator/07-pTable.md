@@ -1,0 +1,12 @@
+# pTable
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkHashList](class_ak_hash_list.html)
+- [ConstIterator](struct_ak_hash_list_1_1_const_iterator.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [operator!=](struct_ak_hash_list_1_1_const_iterator_a549cae93e79d5a81e332e649ddc04497.html#a549cae93e79d5a81e332e649ddc04497) | | [operator\*](struct_ak_hash_list_1_1_const_iterator_adf997c915eddbf4a7a4441bc8ca4777e.html#adf997c915eddbf4a7a4441bc8ca4777e) | | [operator++](struct_ak_hash_list_1_1_const_iterator_a7b238e8b1f587104b3e992d917777482.html#a7b238e8b1f587104b3e992d917777482) | | [operator->](struct_ak_hash_list_1_1_const_iterator_a141d30b92ffd19dd923ba0786a17c0f1.html#a141d30b92ffd19dd923ba0786a17c0f1) | | [operator==](struct_ak_hash_list_1_1_const_iterator_a8d18728aa829eaa4530289c50d174cde.html#a8d18728aa829eaa4530289c50d174cde) | | [pItem](struct_ak_hash_list_1_1_const_iterator_a5fe87230e12c80437761d6a24637658f.html#a5fe87230e12c80437761d6a24637658f) | | [pTable](struct_ak_hash_list_1_1_const_iterator_a2dcb88a6fd56901633a05aa199635466.html#a2dcb88a6fd56901633a05aa199635466) | | [uiTable](struct_ak_hash_list_1_1_const_iterator_afeb9f2b60ea1718752ef8e26d004340c.html#afeb9f2b60ea1718752ef8e26d004340c) | | [◆](#a2dcb88a6fd56901633a05aa199635466)pTable template<class T\_KEY , class T\_ITEM , typename T\_ALLOC = ArrayPoolDefault>   |  | | --- | | const [AkHashList](class_ak_hash_list.html)<T\_KEY, T\_ITEM, T\_ALLOC>::[HashTableArray](class_ak_hash_list_ac85351466e0d949d8951813f0b5ca064.html#ac85351466e0d949d8951813f0b5ca064)\* [AkHashList](class_ak_hash_list.html)< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIterator::pTable |  在文件 [AkHashList.h](_ak_hash_list_8h_source.html) 第 [103](_ak_hash_list_8h_source.html#l00103) 行定义.  被这些函数引用 [AkHashList< AkUInt32, Entry, TAlloc >::Begin()](_ak_hash_list_8h_source.html#l00208), [AkHashList< AkUInt32, Entry, TAlloc >::BeginEx()](_ak_hash_list_8h_source.html#l00255), [AkHashList< AkUInt32, Entry, TAlloc >::FindEx()](_ak_hash_list_8h_source.html#l00338) , 以及 [AkHashList< T\_KEY, T\_ITEM, T\_ALLOC >::ConstIteratorEx::operator++()](_ak_hash_list_8h_source.html#l00168). |

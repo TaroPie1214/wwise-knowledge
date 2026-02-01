@@ -1,0 +1,38 @@
+# Routing category
+
+[Wwise 帮助文档](../../../../00-Wwise-帮助文档.md) > [参考主题](../../../00-参考主题.md) > [Project Explorer](../../00-Project-Explorer.md) > [Audio tab](../00-Audio-tab.md) > [Common tabs and categories: audio structures](00-Common-tabs-and-categories-audio-structures.md) > Routing category
+
+#### Routing category
+
+In the Routing category, you can define properties related to the output bus, as well as game-defined and user-defined auxiliary sends, and early reflections.
+
+| Routing | |
+| --- | --- |
+| 界面元素 | 描述 |
+| **Output Bus** | |
+| Override parent | 不沿用父项。选择继承父对象的输出连线，还是在当前层级结构中自行定义。当没有勾选该选项时，输出控制是不可用的。  对于顶层对象，此选项将不可用。  Default value: false |
+| Output Bus | 输出总线。定义要通过 Busses 层级结构下的哪条 Audio Bus 来输出对象。  当该对象继承父对象的输出属性时，此选项不可用。  可取消链接 Audio Bus 以便为特定平台创建不同的输出路径。  有关详细信息，请参阅 [解除当前平台的输出连线的方法如下：](../../../../07-完善工程/01-管理输出/01-指定对象的输出连线.md#to_unlink_output_routing_for_current_platform "解除当前平台的输出连线的方法如下：") 。 |
+| Volume (to Output Bus) | 音量（连通至输出总线）。输出到音频总线时，信号的衰减或幅度。  |  |  | | --- | --- | | [备注] | 备注 | | 默认滑杆范围从 -96 至 +12。您可以通过直接输入值，或在编辑控件上移动鼠标来输入超出限制范围的值。 |  |  |  | | --- | --- | | [技巧] | 技巧 | | 在使用了 User-Defined Auxiliary Send（用户定义的辅助发送）的湿声/干声混合情况下，Output Bus Volume（输出总线音量）将与干声电平相关联，而辅助发送音量则相反，将与湿声电平相关联。可以为 Output Bus Volume 和 Auxiliary Send Volume（辅助发送音量）使用 RTPC（实时参数控制），来控制游戏的平衡。 |  Default value: 0  Range: -200 to 200  Units: dB |
+| Low-pass Filter (to Output Bus) | 低通滤波器（连通至输出总线）。对输出到音频总线的信号使用低通滤波器。  声部低通滤波器。基于指定频率值针对高频进行衰减的递归滤波器。  其单位代表低通滤波的百分比，其中 0 表示无低通滤波（信号不受影响）而 100 表示最大衰减。  有关更多详细信息，请参阅 [Wwise 中 LPF 和 HPF 值与截止频率的对应关系](../../../../03-设置工程/06-Building-your-sound-and-motion-hierarchies/04-工程层级结构中的属性介绍/02-定义相对属性（音量、音高、LPF、HPF）/01-Low-pass-和-High-pass-Filter-值与截止频率的关系.md#wwise_lpf_value_cutoff_frequencies "Wwise 中 LPF 和 HPF 值与截止频率的对应关系") 页面。  单位：%  Default value: 0  Range: 0 to 100 |
+| High-pass Filter (to Output Bus) | 高通滤波器（连通至输出总线）。对输出到音频总线的信号使用高通滤波器。  声部高通滤波器。基于指定频率针对低频进行衰减的递归滤波器。  其单位代表低高通滤波的百分比，其中 0 表示无高通滤波（信号不受影响）而 100 表示最大衰减。  有关更多详细信息，请参阅 [Wwise 中 LPF 和 HPF 值与截止频率的对应关系](../../../../03-设置工程/06-Building-your-sound-and-motion-hierarchies/04-工程层级结构中的属性介绍/02-定义相对属性（音量、音高、LPF、HPF）/01-Low-pass-和-High-pass-Filter-值与截止频率的关系.md#wwise_lpf_value_cutoff_frequencies "Wwise 中 LPF 和 HPF 值与截止频率的对应关系") 页面。  单位：%  Default value: 0  Range: 0 to 100 |
+| Dual-shelf Filter (to Output Bus) | 双通道搁架滤波器(到输出总线)。此双通道搁架滤波器用于输出到音频输出总线的信号。  声部低通滤波器。基于指定增益值针对高频进行衰减或增强的递归滤波器。  |  |  | | --- | --- | | [备注] | 备注 | | 默认滑杆范围从 -96 至 +12 dB。您可以通过直接输入值或在编辑控件上移动鼠标来输入超出限制范围的值。 |  单位：dB  Default value: 0  Range: -200 to 200  Units: dB |
+| **Game-Defined Auxiliary Sends** | |
+| Override parent | 不沿用父项。决定是继承父对象的游戏定义的辅助发送使用情况，还是在层级结构的当前层级中定义游戏定义的辅助发送使用情况。在没有勾选该选项时，游戏定义的辅助控制是不可用的。  |  |  | | --- | --- | | [备注] | 备注 | | 对于顶层对象，此选项将不可用。 |  Default value: false |
+| Use game-defined aux sends | 使用游戏定义的辅助发送。决定对象是否使用关联游戏对象的 Game-Defined Auxiliary Send。Game-Defined Auxiliary Send 设置包括 Auxiliary Bus 和 Send Volume。  若启用，则对象受由以下函数从游戏发送的值影响：  - [AK::SoundEngine::SetGameObjectAuxSendValues()](https://www.audiokinetic.com/library/?source=SDK&id=ak__soundengine__setgameobjectauxsendvalues.html) - [AK::SoundEngine::SetGameObjectOutputBusVolume()](https://www.audiokinetic.com/library/?source=SDK&id=ak__soundengine__setgameobjectoutputbusvolume.html)  另外，若游戏已初始化 Spatial Audio 并将 Room 和 Portal 数据发送到 Wwise，则此选项决定是否要将对象发送到基于游戏对象的位置为 Room 和 Portal 定义的 Auxiliary Bus。  有关此选项的更多详细信息，请参阅 [理解发送](../../../../05-使用声音和振动来提升游戏体验/04-管理效果器/02-利用效果器重构声学环境.md#understanding_sends "理解发送") 页面。  Default value: false |
+| Volume (Game-defined auxiliary sends) | 音量（游戏定义的辅助发送）。决定为该游戏对象设置的游戏定义的辅助发送音量的衰减。  使用此音量以偏置游戏定义的辅助发送值。  |  |  | | --- | --- | | [备注] | 备注 | | 默认滑杆范围从 -96 至 +12。您可以通过直接输入值，或在编辑控件上移动鼠标来输入超出限制范围的值。 |  Default value: 0  Range: -200 to 200  Units: dB |
+| Game-defined Auxiliary Sends LPF | 声部低通滤波器。基于指定频率值针对高频进行衰减的递归滤波器。  此滤波器的单位表示低通滤波的百分比，其中 0 表示无低通滤波（信号不受影响）而 100 表示最大衰减。  Default value: 0  Range: 0 to 100 |
+| Game-defined Auxiliary Sends HPF | 声部高通滤波器。基于指定频率针对低频进行衰减的递归滤波器。  此滤波器的单位表示高通滤波的百分比，其中 0 表示无高通滤波（信号不受影响）而 100 表示最大衰减。  Default value: 0  Range: 0 to 100 |
+| Game-defined Auxiliary Sends DSF | 声部低通滤波器。基于指定增益值针对高频进行衰减或增强的递归滤波器。  |  |  | | --- | --- | | [备注] | 备注 | | 默认滑杆范围从 -96 至 +12 dB。您可以通过直接输入值或在编辑控件上移动鼠标来输入超出限制范围的值。 |  Default value: 0  Range: -200 to 200  Units: dB |
+| **User-Defined Auxiliary Sends** | |
+| Override parent | 不沿用父项。选择继承父对象的用户定义的辅助发送设置，还是在当前层级中自行定义。在未勾选该选项时，用户定义的辅助发送设置是不可用的。  |  |  | | --- | --- | | [备注] | 备注 | | 对于顶层对象，此选项将不可用。 |  Default value: false |
+| **User-Defined Auxiliary Sends > Send 0, Send 1, Send 2, Send 3** | |
+| User Auxiliary Send | 决定此对象向哪个 Auxiliary Bus 发送音频数据。辅助发送只能以 Auxiliary Bus 为目标。  **添加辅助发送的方法是：**  1. 点击选择器按钮 […]。 2. 在 Busses 层级结构下选择 Auxiliary Bus。 3. 点击 **OK** 。 4. 为此新增发送总线设置发送音量。  |  |  | | --- | --- | | [备注] | 备注 | | 您可以在 Busses 层级结构下的任意位置创建 Auxiliary Bus 作为现有 Bus 或现有 Auxiliary Bus 的子对象。 |  |  |  | | --- | --- | | [技巧] | 技巧 | | 您可以将 Project Explorer（工程浏览器）中的辅助总线对象拖放到 User-Defined Auxiliary Send 列表中，来快速添加辅助发送。 | |
+| User-Defined Auxiliary Send Volume | 发送到 Auxiliary Bus 的信号衰减。  |  |  | | --- | --- | | [备注] | 备注 | | 默认滑杆范围从 -96 至 +12 dB。您可以通过直接输入值，或在编辑控件上移动鼠标来输入超出限制范围的值。 |  |  |  | | --- | --- | | [备注] | 备注 | | 仅在选择了一个辅助总线条目时，此滑杆才会处于激活状态。 |  Default value: 0  Range: -200 to 200  Units: dB |
+| User Auxiliary Send LPF | 用户辅助发送 LPF。对于通过 User Auxiliary Send (User-Defined Auxiliary Send 0 - 3) 之一发送至 Auxiliary Bus 的音频信号，所应用的 Low-Pass Filter 值。  有关更多详细信息，请参阅 [Wwise 中 LPF 和 HPF 值与截止频率的对应关系](../../../../03-设置工程/06-Building-your-sound-and-motion-hierarchies/04-工程层级结构中的属性介绍/02-定义相对属性（音量、音高、LPF、HPF）/01-Low-pass-和-High-pass-Filter-值与截止频率的关系.md#wwise_lpf_value_cutoff_frequencies "Wwise 中 LPF 和 HPF 值与截止频率的对应关系") 页面。  Default value: 0  Range: 0 to 100 |
+| User Auxiliary Send HPF | 用户辅助发送 HPF。对于通过 User Auxiliary Send (User-Defined Auxiliary Send 0 - 3) 之一发送至 Auxiliary Bus 的音频信号，所应用的 High-Pass Filter 值。  有关更多详细信息，请参阅 [Wwise 中 LPF 和 HPF 值与截止频率的对应关系](../../../../03-设置工程/06-Building-your-sound-and-motion-hierarchies/04-工程层级结构中的属性介绍/02-定义相对属性（音量、音高、LPF、HPF）/01-Low-pass-和-High-pass-Filter-值与截止频率的关系.md#wwise_lpf_value_cutoff_frequencies "Wwise 中 LPF 和 HPF 值与截止频率的对应关系") 页面。  Default value: 0  Range: 0 to 100 |
+| **Early Reflections** | |
+| Override parent | 不沿用父对象。决定是从父对象沿用早期反射辅助发送设置，还是在层级结构中的当前层级另行定义。在没有选中此项时，早期反射辅助发送控件不可用。  |  |  | | --- | --- | | [备注] | 备注 | | 对于顶层对象，此选项将不可用。 |  Default value: false |
+| Early Reflections Auxiliary Send | 早期反射辅助发送。在 Wwise Spatial Audio 中启用反射处理，并决定将此对象发送到哪条 Auxiliary Bus 来进行早期反射处理。  早期反射处理用于模拟声波在游戏内几何构造所定义的虚拟表面发生反弹的声学现象。因为最初的几次反射会将大部分空间信息传达给听者，所以最好通过后期混响来单独地处理早期反射，然后使用 Reflect 插件生成更多细节。  为了渲染早期反射，必须将 Auxiliary Bus 指派给早期反射发送，并把 Reflect 插件指派给 Auxiliary Bus 上的效果器插槽。  若未指定任何发送，则 Wwise Spatial Audio 将不针对声音计算早期反射路径。  |  |  | | --- | --- | | [备注] | 备注 | | ：另外，也可通过 Spatial Audio API 来为每个游戏对象指派反射 Auxiliary Bus。若既通过 API 指派了反射总线又在设计工具中将其指派给了声音，则从设计工具获取用于该声音的总线。 |  |  |  | | --- | --- | | [备注] | 备注 | | 为了计算反射，Wwise Spatial Audio 库必须初始化，而且游戏必须将上层几何构造发送到 Wwise Spatial Audio。 |  **添加辅助发送的方法是：**  1. 点击选择器按钮 […]。 2. 在 Busses 层级结构下选择 Auxiliary Bus。 3. 点击 **OK** 。 4. 为此新增发送总线设置发送音量。  |  |  | | --- | --- | | [备注] | 备注 | | 您可以在 Busses 层级结构下的任意位置创建 Auxiliary Bus 作为现有 Bus 或现有 Auxiliary Bus 的子对象。 |  |  |  | | --- | --- | | [技巧] | 技巧 | | 您可以将 Project Explorer（工程浏览器）中的辅助总线对象拖放到 User-Defined Auxiliary Send 列表中，来快速添加辅助发送。 | |
+| Early Reflections Auxiliary Send Volume | 早期反射辅助发送音量。决定如何衰减发送到反射 Auxiliary Bus 的信号。此控件还会影响 API 指定的反射辅助发送的音量。  |  |  | | --- | --- | | [备注] | 备注 | | 默认滑杆范围从 -96 至 +12 dB。您可以通过直接输入值，或在编辑控件上移动鼠标来输入超出限制范围的值。 |  Default value: 0  Range: -200 to 200  Units: dB |
+
+---

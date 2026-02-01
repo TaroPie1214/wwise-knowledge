@@ -1,0 +1,11 @@
+# m_iNumLoops
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkFXDurationHandler](class_ak_f_x_duration_handler.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetDuration](class_ak_f_x_duration_handler_a2fc7819453bc98430b0cfe0eb7c922ce.html#a2fc7819453bc98430b0cfe0eb7c922ce) | | [m\_iNumLoops](class_ak_f_x_duration_handler_aa705751876d0a3cead811fd58f7bb600.html#aa705751876d0a3cead811fd58f7bb600) | | [m\_uFrameCount](class_ak_f_x_duration_handler_a7e919d9247340a2ef870d2f73e86a7aa.html#a7e919d9247340a2ef870d2f73e86a7aa) | | [m\_uIterationFrame](class_ak_f_x_duration_handler_a0ede1d7249ed9ad714f2f26b73d669b5.html#a0ede1d7249ed9ad714f2f26b73d669b5) | | [m\_uSampleRate](class_ak_f_x_duration_handler_aa7acbf0695b14d1f800e941296cb81ae.html#aa7acbf0695b14d1f800e941296cb81ae) | | [ProduceBuffer](class_ak_f_x_duration_handler_a9a66c33b5af1479b80fd5ee1a525de0a.html#a9a66c33b5af1479b80fd5ee1a525de0a) | | [ProduceBuffer](class_ak_f_x_duration_handler_a85d9471ce728a6fc0e7173dad778d2db.html#a85d9471ce728a6fc0e7173dad778d2db) | | [Reset](class_ak_f_x_duration_handler_ac04dbf110c2ac073df56624c96a7d959.html#ac04dbf110c2ac073df56624c96a7d959) | | [SetDuration](class_ak_f_x_duration_handler_a5b87d61151150560aac6adf984269068.html#a5b87d61151150560aac6adf984269068) | | [SetLooping](class_ak_f_x_duration_handler_a6596c6bab0d15ef166636045034e14a5.html#a6596c6bab0d15ef166636045034e14a5) | | [Setup](class_ak_f_x_duration_handler_a7dcea0ad772ee3393b9ebdc6d4428920.html#a7dcea0ad772ee3393b9ebdc6d4428920) | | [◆](#aa705751876d0a3cead811fd58f7bb600)m\_iNumLoops |  |  |  | | --- | --- | --- | | |  | | --- | | [AkInt16](_ak_numeral_types_8h_a20960d2f96e0ecd7debd52d6633ecaac.html#a20960d2f96e0ecd7debd52d6633ecaac) AkFXDurationHandler::m\_iNumLoops | | protected |  在文件 [AkFXDurationHandler.h](_ak_f_x_duration_handler_8h_source.html) 第 [121](_ak_f_x_duration_handler_8h_source.html#l00121) 行定义.  被这些函数引用 [GetDuration()](_ak_f_x_duration_handler_8h_source.html#l00071), [ProduceBuffer()](_ak_f_x_duration_handler_8h_source.html#l00086) , 以及 [SetLooping()](_ak_f_x_duration_handler_8h_source.html#l00058). |

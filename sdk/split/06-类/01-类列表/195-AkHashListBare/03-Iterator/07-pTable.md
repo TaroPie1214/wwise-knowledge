@@ -1,0 +1,12 @@
+# pTable
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AkHashListBare](class_ak_hash_list_bare.html)
+- [Iterator](struct_ak_hash_list_bare_1_1_iterator.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [operator!=](struct_ak_hash_list_bare_1_1_iterator_aff28bb098116918e4f4c7ee8c7ea9efd.html#aff28bb098116918e4f4c7ee8c7ea9efd) | | [operator\*](struct_ak_hash_list_bare_1_1_iterator_a1c62f048ff2697dcfd14deb35f570397.html#a1c62f048ff2697dcfd14deb35f570397) | | [operator++](struct_ak_hash_list_bare_1_1_iterator_afb9b5e3d576c4655da7ca992f6beb2e6.html#afb9b5e3d576c4655da7ca992f6beb2e6) | | [operator->](struct_ak_hash_list_bare_1_1_iterator_a7a1e95a72a19b84eea3d9871cbab1d28.html#a7a1e95a72a19b84eea3d9871cbab1d28) | | [operator==](struct_ak_hash_list_bare_1_1_iterator_a5d28e3e43b4418c90806f4d8f1557105.html#a5d28e3e43b4418c90806f4d8f1557105) | | [pItem](struct_ak_hash_list_bare_1_1_iterator_a4575039a11c9b0a32319796c400f9520.html#a4575039a11c9b0a32319796c400f9520) | | [pTable](struct_ak_hash_list_bare_1_1_iterator_a849cf0e06c7631011f81636faf982b0d.html#a849cf0e06c7631011f81636faf982b0d) | | [uiTable](struct_ak_hash_list_bare_1_1_iterator_a12bda837bb9a959de0eb186360ccd4bc.html#a12bda837bb9a959de0eb186360ccd4bc) | | [◆](#a849cf0e06c7631011f81636faf982b0d)pTable template<class T\_KEY , class T\_MAPSTRUCT , typename T\_ALLOC = ArrayPoolDefault, class KEY\_POLICY = AkDefaultHashListBarePolicy<T\_KEY, T\_MAPSTRUCT>, class LIST\_POLICY = AkDefaultHashListBarePolicy<T\_KEY, T\_MAPSTRUCT>>   |  | | --- | | [AkHashListBare](class_ak_hash_list_bare.html)<T\_KEY,T\_MAPSTRUCT,T\_ALLOC,KEY\_POLICY,LIST\_POLICY>::[HashTableArray](class_ak_array.html)\* [AkHashListBare](class_ak_hash_list_bare.html)< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY, LIST\_POLICY >::Iterator::pTable |  在文件 [AkHashList.h](_ak_hash_list_8h_source.html) 第 [681](_ak_hash_list_8h_source.html#l00681) 行定义.  被这些函数引用 [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY >::Begin()](_ak_hash_list_8h_source.html#l00803), [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY >::BeginEx()](_ak_hash_list_8h_source.html#l00849), [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY >::Erase()](_ak_hash_list_8h_source.html#l01082), [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY >::FindEx()](_ak_hash_list_8h_source.html#l00913) , 以及 [AkHashListBare< T\_KEY, T\_MAPSTRUCT, T\_ALLOC, KEY\_POLICY, LIST\_POLICY >::IteratorEx::operator++()](_ak_hash_list_8h_source.html#l00765). |

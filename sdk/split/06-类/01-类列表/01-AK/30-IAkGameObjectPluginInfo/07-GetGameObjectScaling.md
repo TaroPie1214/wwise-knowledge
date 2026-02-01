@@ -1,0 +1,12 @@
+# GetGameObjectScaling
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [IAkGameObjectPluginInfo](class_a_k_1_1_i_ak_game_object_plugin_info.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetDistanceProbe](class_a_k_1_1_i_ak_game_object_plugin_info_ad0e5372b07eea66fd0d015ccf026dc6d.html#ad0e5372b07eea66fd0d015ccf026dc6d) | | [GetEmitterListenerPair](class_a_k_1_1_i_ak_game_object_plugin_info_ac64ca233a93939f8d7d41f83a2ff8c27.html#ac64ca233a93939f8d7d41f83a2ff8c27) | | [GetGameObjectID](class_a_k_1_1_i_ak_game_object_plugin_info_ab9b76e3cbf8360809ad559b88498a940.html#ab9b76e3cbf8360809ad559b88498a940) | | [GetGameObjectMultiPositionType](class_a_k_1_1_i_ak_game_object_plugin_info_ae092b578bda8611d0fcb93ee7243dc70.html#ae092b578bda8611d0fcb93ee7243dc70) | | [GetGameObjectPosition](class_a_k_1_1_i_ak_game_object_plugin_info_ac1962ffbbe7276ea6aaf88ee36c78996.html#ac1962ffbbe7276ea6aaf88ee36c78996) | | [GetGameObjectScaling](class_a_k_1_1_i_ak_game_object_plugin_info_ac50bfec9bb48a7ec7187cfb250591635.html#ac50bfec9bb48a7ec7187cfb250591635) | | [GetListenerData](class_a_k_1_1_i_ak_game_object_plugin_info_ac6d05467e017f0334df784289a045ddf.html#ac6d05467e017f0334df784289a045ddf) | | [GetListeners](class_a_k_1_1_i_ak_game_object_plugin_info_a4000e34b25c85c81dca34543072193b8.html#a4000e34b25c85c81dca34543072193b8) | | [GetNumEmitterListenerPairs](class_a_k_1_1_i_ak_game_object_plugin_info_ac7354b04e29343e78471c320bd85d48e.html#ac7354b04e29343e78471c320bd85d48e) | | [GetNumGameObjectPositions](class_a_k_1_1_i_ak_game_object_plugin_info_aadc5129ad1faf81790983f8d96b911fc.html#aadc5129ad1faf81790983f8d96b911fc) | | [~IAkGameObjectPluginInfo](class_a_k_1_1_i_ak_game_object_plugin_info_af907b08cfbb00730b4599668ad3ec23d.html#af907b08cfbb00730b4599668ad3ec23d) | | [◆](#ac50bfec9bb48a7ec7187cfb250591635)GetGameObjectScaling() |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  | | --- | --- | --- | --- | --- | | virtual [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) AK::IAkGameObjectPluginInfo::GetGameObjectScaling | ( |  | ) | const | | pure virtual |  Get the distance scaling factor of the associated game object.  参见  - [AK::SoundEngine::SetScalingFactor()](namespace_a_k_1_1_sound_engine_a9b71daa02c5d398d08c9eb0643d52555.html#a9b71daa02c5d398d08c9eb0643d52555) |

@@ -1,0 +1,11 @@
+# GetDeviceID
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_sink\_devices\_v1](structak__wwise__plugin__sink__devices__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_sink\_devices\_v1](structak__wwise__plugin__sink__devices__v1_a00d14c5c24ed012b3c31417a48d23702.html#a00d14c5c24ed012b3c31417a48d23702) | | [GetCount](structak__wwise__plugin__sink__devices__v1_affe92d49a2287df1a99fb0df541b9f79.html#affe92d49a2287df1a99fb0df541b9f79) | | [GetDeviceID](structak__wwise__plugin__sink__devices__v1_ad322757eaa29d389f70cc8a313d61149.html#ad322757eaa29d389f70cc8a313d61149) | | [GetName](structak__wwise__plugin__sink__devices__v1_af5aaf3c1f014dd975d7454f188f747e6.html#af5aaf3c1f014dd975d7454f188f747e6) | | [Instance](structak__wwise__plugin__sink__devices__v1_aa5f405106aa1af9ef69f1c5093ebe2f4.html#aa5f405106aa1af9ef69f1c5093ebe2f4) | | [◆](#ad322757eaa29d389f70cc8a313d61149)GetDeviceID |  | | --- | | uint32\_t(\* ak\_wwise\_plugin\_sink\_devices\_v1::GetDeviceID) (const struct [ak\_wwise\_plugin\_sink\_devices\_instance\_v1](structak__wwise__plugin__sink__devices__instance__v1.html) \*in\_this, int in\_num) |  Get a device ID for the device number in\_num.  Provided by your plug-in, this should return a uint32\_t that can be understood by the Sound Engine part of your sink plug-in. It must not return duplicates or pointers, and the value should be applicable to the GetName call based on the same in\_num.  参数  |  |  |  | | --- | --- | --- | | [in] | in\_this | Current instance of this interface. | | [in] | in\_num | Device number, from zero to the value, as retrieved by GetCount. |  返回  uint32\_t Device ID for the interface in\_num.  参见  [GetCount](structak__wwise__plugin__sink__devices__v1_affe92d49a2287df1a99fb0df541b9f79.html#affe92d49a2287df1a99fb0df541b9f79) for a discussion on providing data in a multithread-aware environment.  在文件 [SinkDevices.h](_sink_devices_8h_source.html) 第 [142](_sink_devices_8h_source.html#l00142) 行定义.  被这些函数引用 [AK.Wwise::Plugin::V1::SinkDevices::Interface::Interface()](_sink_devices_8h_source.html#l00206). |

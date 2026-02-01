@@ -1,0 +1,9 @@
+# Game message ...
+
+[Wwise 帮助文档](../../../../00-Wwise-帮助文档.md) > [参考主题](../../../00-参考主题.md) > [Profiler 视图](../../00-Profiler-视图.md) > [Capture Log](../00-Capture-Log.md) > [Capture Log 中报告的错误](00-Capture-Log-中报告的错误.md) > Game message ...
+
+#### Game message ...
+
+“游戏消息…。”这是一条由游戏代码而非 Wwise 生成的自由格式消息。
+
+---

@@ -1,0 +1,68 @@
+# AkAudioFormat
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+[所有成员列表](struct_ak_audio_format-members.html) |
+[Public 成员函数](#pub-methods) |
+[Public 属性](#pub-attribs)
+
+AkAudioFormat结构体 参考
+
+Defines the parameters of an audio buffer format.
+[更多...](struct_ak_audio_format.html#details)
+
+`#include <AkCommonDefs.h>`
+
+|  |  |
+| --- | --- |
+| Public 成员函数 | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [GetNumChannels](struct_ak_audio_format_a4fbe6f5b2d3e04945c6c1444f14c2118.html#a4fbe6f5b2d3e04945c6c1444f14c2118) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [HasLFE](struct_ak_audio_format_a3772d1edb5935e90630ffceaaebe5a0c.html#a3772d1edb5935e90630ffceaaebe5a0c) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [HasCenter](struct_ak_audio_format_a5e1a6afc50c06ffeaefb0aa2061d19ee.html#a5e1a6afc50c06ffeaefb0aa2061d19ee) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [GetBitsPerSample](struct_ak_audio_format_ad3a0479ac129715692c21594af7693b4.html#ad3a0479ac129715692c21594af7693b4) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [GetBlockAlign](struct_ak_audio_format_ac798e4da66e007e9937f566e148cc181.html#ac798e4da66e007e9937f566e148cc181) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [GetTypeID](struct_ak_audio_format_a92df5bf5fbc1cb30948a12eeb60ed19b.html#a92df5bf5fbc1cb30948a12eeb60ed19b) () const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [GetInterleaveID](struct_ak_audio_format_ad06b7934a210eb67fc6cec8c37d82e77.html#ad06b7934a210eb67fc6cec8c37d82e77) () const |
+|  | |
+| void | [SetAll](struct_ak_audio_format_a9faddafaebebeb550993315c8f610aea.html#a9faddafaebebeb550993315c8f610aea) ([AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) in\_uSampleRate, [AkChannelConfig](struct_ak_channel_config.html) in\_channelConfig, [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) in\_uBitsPerSample, [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) in\_uBlockAlign, [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) in\_uTypeID, [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) in\_uInterleaveID) |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [operator==](struct_ak_audio_format_ac7ba2d6bd759f70bce0850b39b0b7b11.html#ac7ba2d6bd759f70bce0850b39b0b7b11) (const [AkAudioFormat](struct_ak_audio_format.html) &in\_other) const |
+|  | |
+| [AkForceInline](_platforms_2_windows_2_ak_types_8h_a3b6f41972bf6fa55e80b687ca50fbd12.html#a3b6f41972bf6fa55e80b687ca50fbd12) bool | [operator!=](struct_ak_audio_format_a37592ada2489259066df5876ed7c583d.html#a37592ada2489259066df5876ed7c583d) (const [AkAudioFormat](struct_ak_audio_format.html) &in\_other) const |
+|  | |
+
+|  |  |
+| --- | --- |
+| Public 属性 | |
+| [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [uSampleRate](struct_ak_audio_format_ad94d7b21266cb1d8a9aa5557f875d0fa.html#ad94d7b21266cb1d8a9aa5557f875d0fa) |
+|  | Number of samples per second [更多...](struct_ak_audio_format_ad94d7b21266cb1d8a9aa5557f875d0fa.html#ad94d7b21266cb1d8a9aa5557f875d0fa) |
+|  | |
+| [AkChannelConfig](struct_ak_channel_config.html) | [channelConfig](struct_ak_audio_format_a73de76fa89ed81baa5265448bd6deefe.html#a73de76fa89ed81baa5265448bd6deefe) |
+|  | Channel configuration. [更多...](struct_ak_audio_format_a73de76fa89ed81baa5265448bd6deefe.html#a73de76fa89ed81baa5265448bd6deefe) |
+|  | |
+| [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [uBitsPerSample](struct_ak_audio_format_a5f55880c505a87ff3584ab62525e83f2.html#a5f55880c505a87ff3584ab62525e83f2):6 |
+|  | Number of bits per sample. [更多...](struct_ak_audio_format_a5f55880c505a87ff3584ab62525e83f2.html#a5f55880c505a87ff3584ab62525e83f2) |
+|  | |
+| [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [uBlockAlign](struct_ak_audio_format_a1b1308df69cad6539e52971c0ce1c3c9.html#a1b1308df69cad6539e52971c0ce1c3c9):10 |
+|  | Number of bytes per sample frame. (For example a 5.1 PCM 16bit should have a uBlockAlign equal to 6(5.1 channels)\*2(16 bits per sample) = 12. [更多...](struct_ak_audio_format_a1b1308df69cad6539e52971c0ce1c3c9.html#a1b1308df69cad6539e52971c0ce1c3c9) |
+|  | |
+| [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [uTypeID](struct_ak_audio_format_a82307e166e1086e1122ab52e06cf803e.html#a82307e166e1086e1122ab52e06cf803e):2 |
+|  | Data type ID (AkDataTypeID). [更多...](struct_ak_audio_format_a82307e166e1086e1122ab52e06cf803e.html#a82307e166e1086e1122ab52e06cf803e) |
+|  | |
+| [AkUInt32](_ak_numeral_types_8h_a39c6c5d577901802ca77775760b704ce.html#a39c6c5d577901802ca77775760b704ce) | [uInterleaveID](struct_ak_audio_format_a2df57c949be88dbfab4b58311f85b637.html#a2df57c949be88dbfab4b58311f85b637):1 |
+|  | Interleave ID (AkDataInterleaveID). [更多...](struct_ak_audio_format_a2df57c949be88dbfab4b58311f85b637.html#a2df57c949be88dbfab4b58311f85b637) |
+|  | |
+
+## 详细描述
+
+Defines the parameters of an audio buffer format.
+
+在文件 [AkCommonDefs.h](_ak_common_defs_8h_source.html) 第 [60](_ak_common_defs_8h_source.html#l00060) 行定义.

@@ -1,0 +1,15 @@
+# ReplaceOutput could not properly remove old output device.
+
+[Wwise 帮助文档](../../../../00-Wwise-帮助文档.md) > [参考主题](../../../00-参考主题.md) > [Profiler 视图](../../00-Profiler-视图.md) > [Capture Log](../00-Capture-Log.md) > [Capture Log 中报告的错误](00-Capture-Log-中报告的错误.md) > ReplaceOutput could not properly remove old output device.
+
+#### ReplaceOutput could not properly remove old output device.
+
+“ReplaceOutput 无法正常移除旧的输出设备”。在调用 [`AK::SoundEngine::ReplaceOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a81521a4611d3891c499ec9c5eb421ac2.html) 时，若无法找到并移除与所提供 [`AkOutputDeviceID`](https://www.audiokinetic.com/library/edge/?source=SDK&id=_common_2_ak_types_8h_ab608859e8c575f46ce18433e32aa2ccd.html) 匹配的设备（尽管最初调用成功），则将出现此问题。该问题的可能原因是，在将 [`AkOutputDeviceID`](https://www.audiokinetic.com/library/edge/?source=SDK&id=_common_2_ak_types_8h_ab608859e8c575f46ce18433e32aa2ccd.html) 传给 [`AK::SoundEngine::ReplaceOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a81521a4611d3891c499ec9c5eb421ac2.html) 以便移除设备时，同时针对该设备 ID 调用了 [`AK::SoundEngine::RemoveOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a0932ed2a3669258ecc3bbe6448314020.html)。This will result in the new output losing all previously set listeners, and the main bus may not be updated with the new Audio Device ShareSet.
+
+**推荐的解决步骤：**
+
+- 使用 Debug 版本库，将调试程序连接至游戏，然后重现相同场景。
+- 避免使用同一 [`AkOutputDeviceID`](https://www.audiokinetic.com/library/edge/?source=SDK&id=_common_2_ak_types_8h_ab608859e8c575f46ce18433e32aa2ccd.html) 调用 [`AK::SoundEngine::RemoveOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a0932ed2a3669258ecc3bbe6448314020.html) 和 [`AK::SoundEngine::ReplaceOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a81521a4611d3891c499ec9c5eb421ac2.html)。[`AK::SoundEngine::ReplaceOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a81521a4611d3891c499ec9c5eb421ac2.html) 会从内部移除设备，因此没必要同时调用两个函数。
+- 若有意同时调用两个函数，请更改 [`AK::SoundEngine::RemoveOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a0932ed2a3669258ecc3bbe6448314020.html) 或 [`AK::SoundEngine::ReplaceOutput()`](https://www.audiokinetic.com/library/edge/?source=SDK&id=namespace_a_k_1_1_sound_engine_a81521a4611d3891c499ec9c5eb421ac2.html) 使用的 [`AkOutputDeviceID`](https://www.audiokinetic.com/library/edge/?source=SDK&id=_common_2_ak_types_8h_ab608859e8c575f46ce18433e32aa2ccd.html)，以免使用同一 [`AkOutputDeviceID`](https://www.audiokinetic.com/library/edge/?source=SDK&id=_common_2_ak_types_8h_ab608859e8c575f46ce18433e32aa2ccd.html) 调用两个函数。比如，在可能的情况下，有时要设置单独的 Audio Device ShareSet，但并不希望两个或多个输出使用同一设备。
+
+---

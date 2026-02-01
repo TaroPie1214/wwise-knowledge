@@ -1,0 +1,47 @@
+# GameObjDst
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [SoundEngine](namespace_a_k_1_1_sound_engine.html)
+- [Query](namespace_a_k_1_1_sound_engine_1_1_query.html)
+- [GameObjDst](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst.html)
+
+[所有成员列表](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst-members.html) |
+[Public 成员函数](#pub-methods) |
+[Public 属性](#pub-attribs)
+
+AK::SoundEngine::Query::GameObjDst结构体 参考
+
+`#include <AkQueryParameters.h>`
+
+|  |  |
+| --- | --- |
+| Public 成员函数 | |
+|  | [GameObjDst](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_ab48c589110cddaa1a6d5aec7d9271bb2.html#ab48c589110cddaa1a6d5aec7d9271bb2) () |
+|  | Default constructor [更多...](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_ab48c589110cddaa1a6d5aec7d9271bb2.html#ab48c589110cddaa1a6d5aec7d9271bb2) |
+|  | |
+|  | [GameObjDst](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_a13568a6069c7c62a51756179d7910c68.html#a13568a6069c7c62a51756179d7910c68) ([AkGameObjectID](_ak_typedefs_8h_a352a1eb6955fa208062e40a9ccdd2560.html#a352a1eb6955fa208062e40a9ccdd2560) in\_gameObjID, [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) in\_dst) |
+|  | Easy constructor [更多...](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_a13568a6069c7c62a51756179d7910c68.html#a13568a6069c7c62a51756179d7910c68) |
+|  | |
+
+|  |  |
+| --- | --- |
+| Public 属性 | |
+| [AkGameObjectID](_ak_typedefs_8h_a352a1eb6955fa208062e40a9ccdd2560.html#a352a1eb6955fa208062e40a9ccdd2560) | [m\_gameObjID](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_a3897865556b0f4675a20a038c9973d5f.html#a3897865556b0f4675a20a038c9973d5f) |
+|  | Game object ID [更多...](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_a3897865556b0f4675a20a038c9973d5f.html#a3897865556b0f4675a20a038c9973d5f) |
+|  | |
+| [AkReal32](_ak_numeral_types_8h_afc38459f26e2b23defe588026e886a98.html#afc38459f26e2b23defe588026e886a98) | [m\_dst](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_a0e0f56db19e3cf112830ce6c4e5e4afd.html#a0e0f56db19e3cf112830ce6c4e5e4afd) |
+|  | MaxDistance [更多...](struct_a_k_1_1_sound_engine_1_1_query_1_1_game_obj_dst_a0e0f56db19e3cf112830ce6c4e5e4afd.html#a0e0f56db19e3cf112830ce6c4e5e4afd) |
+|  | |
+
+## 详细描述
+
+Game object and max distance association.
+
+参见
+:   - [AkRadiusList](namespace_a_k_1_1_sound_engine_1_1_query_aa14caa1a935b5a7868e4ae0c994ef3a3.html#aa14caa1a935b5a7868e4ae0c994ef3a3)
+
+在文件 [AkQueryParameters.h](_ak_query_parameters_8h_source.html) 第 [445](_ak_query_parameters_8h_source.html#l00445) 行定义.

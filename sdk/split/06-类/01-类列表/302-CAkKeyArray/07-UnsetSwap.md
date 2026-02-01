@@ -1,0 +1,11 @@
+# UnsetSwap
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [CAkKeyArray](class_c_ak_key_array.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [Exists](class_c_ak_key_array_aa302f37783ee66c9770cc13aeb126fe6.html#aa302f37783ee66c9770cc13aeb126fe6) | | [FindEx](class_c_ak_key_array_abadb14c4cdf37a65ba2a84d2f8d1c380.html#abadb14c4cdf37a65ba2a84d2f8d1c380) | | [Set](class_c_ak_key_array_aaaa2e6d5c4b8b5bef930fef83ad401c0.html#aaaa2e6d5c4b8b5bef930fef83ad401c0) | | [Set](class_c_ak_key_array_a902ca3cb16371318d6214952e8034183.html#a902ca3cb16371318d6214952e8034183) | | [SetFirst](class_c_ak_key_array_a415ec1f1dd1232945fde7eefad147252.html#a415ec1f1dd1232945fde7eefad147252) | | [Unset](class_c_ak_key_array_af23ddd1d464b62cbd32042ad571d44cf.html#af23ddd1d464b62cbd32042ad571d44cf) | | [UnsetSwap](class_c_ak_key_array_aafd70ec17f215517d11c7105d2985be3.html#aafd70ec17f215517d11c7105d2985be3) | | [◆](#aafd70ec17f215517d11c7105d2985be3)UnsetSwap() template<class T\_KEY , class T\_ITEM , class U\_POOL = ArrayPoolDefault, class TGrowBy = AkGrowByPolicy\_DEFAULT, class TMovePolicy = AkAssignmentMovePolicy<MapStruct<T\_KEY, T\_ITEM> >>   |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void [CAkKeyArray](class_c_ak_key_array.html)< T\_KEY, T\_ITEM, U\_POOL, TGrowBy, TMovePolicy >::UnsetSwap | ( | T\_KEY | *in\_Key* | ) |  | | inline |  在文件 [AkKeyArray.h](_ak_key_array_8h_source.html) 第 [143](_ak_key_array_8h_source.html#l00143) 行定义.  引用了 [AkArray< MapStruct< T\_KEY, T\_ITEM >, const MapStruct< T\_KEY, T\_ITEM > &, ArrayPoolDefault, AkGrowByPolicy\_DEFAULT, AkAssignmentMovePolicy< MapStruct< T\_KEY, T\_ITEM > > >::End()](_ak_array_8h_source.html#l00354), [AkArray< MapStruct< T\_KEY, T\_ITEM >, const MapStruct< T\_KEY, T\_ITEM > &, ArrayPoolDefault, AkGrowByPolicy\_DEFAULT, AkAssignmentMovePolicy< MapStruct< T\_KEY, T\_ITEM > > >::EraseSwap()](_ak_array_8h_source.html#l00483) , 以及 [CAkKeyArray< T\_KEY, T\_ITEM, U\_POOL, TGrowBy, TMovePolicy >::FindEx()](_ak_key_array_8h_source.html#l00112). |

@@ -1,0 +1,16 @@
+# NotifyPropertyChanged
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [V1](namespace_a_k_1_1_wwise_1_1_plugin_1_1_v1.html)
+- [Notifications](namespace_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications.html)
+- [PropertySet\_](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set__.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetInstancePointer](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___ab75710d240c2bf4fba80265b703c14b0.html#ab75710d240c2bf4fba80265b703c14b0) | | [GetInstancePointer](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___a599d5ac0bb91269755251a70dd2924a6.html#a599d5ac0bb91269755251a70dd2924a6) | | [GetInterfacePointer](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___a0577dcdbb2492658db8e2020b5b27828.html#a0577dcdbb2492658db8e2020b5b27828) | | [Instance](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___af37e81a6ca6f29faf32ae11baff0041d.html#af37e81a6ca6f29faf32ae11baff0041d) | | [NotifyPropertyChanged](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___a90d279b0b03eed79cb10a5b56b0aff90.html#a90d279b0b03eed79cb10a5b56b0aff90) | | [PropertySet\_](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___aa089872e49cc226c9658d7185e8bbf17.html#aa089872e49cc226c9658d7185e8bbf17) | | [~PropertySet\_](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_notifications_1_1_property_set___adc42a723aa87b04d312e77becb52e41a.html#adc42a723aa87b04d312e77becb52e41a) | | [◆](#a90d279b0b03eed79cb10a5b56b0aff90)NotifyPropertyChanged() |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | virtual void AK.Wwise::Plugin::V1::Notifications::PropertySet\_::NotifyPropertyChanged | ( | const GUID & | *in\_guidPlatform*, | |  |  | const char \* | *in\_pszPropertyName* | |  | ) |  |  | | inlinevirtual |  This function is called by [Wwise](namespace_a_k_1_1_wwise.html) when a plug-in property changes.  For example, data can change through interaction with a UI control bound to a property, or through undo/redo operations.  This function is not called on the Object Store or any inner property sets.  参见  - [属性值通知](plugin_backend_model.html#wwiseplugin_propertyset_notification)  参数  |  |  |  | | --- | --- | --- | | [in] | in\_guidPlatform | The unique ID of the queried platform. | | [in] | in\_pszPropertyName | The name of the affected property. |  参数  |  |  | | --- | --- | | in\_guidPlatform | The unique ID of the queried platform | | in\_pszPropertyName | The name of the property |  在文件 [HostPropertySet.h](_v1_2_host_property_set_8h_source.html) 第 [2417](_v1_2_host_property_set_8h_source.html#l02417) 行定义. |

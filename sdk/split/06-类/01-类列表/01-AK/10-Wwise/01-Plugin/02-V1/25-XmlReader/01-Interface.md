@@ -1,0 +1,15 @@
+# Interface
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](namespace_a_k.html)
+- [Wwise](namespace_a_k_1_1_wwise.html)
+- [Plugin](namespace_a_k_1_1_wwise_1_1_plugin.html)
+- [V1](namespace_a_k_1_1_wwise_1_1_plugin_1_1_v1.html)
+- [XmlReader](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [GetAttribute](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a33f5529a1a1a1d3b625599f6a169c84e.html#a33f5529a1a1a1d3b625599f6a169c84e) | | [GetLineNumber](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_ad5b01fa46bf1ce592d03bcce9c898f38.html#ad5b01fa46bf1ce592d03bcce9c898f38) | | [GetLinePosition](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a0acc0d09e2527c41d67d45ae2eff151a.html#a0acc0d09e2527c41d67d45ae2eff151a) | | [GetName](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a651df1743780dccfad6ea357c02b357f.html#a651df1743780dccfad6ea357c02b357f) | | [GetNodeType](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a9223f89dd64f0edb359b0b6527628835.html#a9223f89dd64f0edb359b0b6527628835) | | [GetValue](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a13bdbca50afb46c79a00b60fb05ebdf7.html#a13bdbca50afb46c79a00b60fb05ebdf7) | | [Interface](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a7bb26d4ee9adab3b6d3917698e2d059f.html#a7bb26d4ee9adab3b6d3917698e2d059f) | | [IsEmptyElement](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a634b05b742735175f34ff52f6bd391bd.html#a634b05b742735175f34ff52f6bd391bd) | | [IsEOF](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a278cea16cb39b338053d5872b6208f6a.html#a278cea16cb39b338053d5872b6208f6a) | | [MoveToContent](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_ae2377d898baed48ce83ea217c5379519.html#ae2377d898baed48ce83ea217c5379519) | | [Read](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_aaf2aa8d1886d7590e29e70d450509fb5.html#aaf2aa8d1886d7590e29e70d450509fb5) | | [ReadElementString](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a25cbd56eda252f4cba5b2ca0c73fba22.html#a25cbd56eda252f4cba5b2ca0c73fba22) | | [ReadInnerXml](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a98eb3b633829c4bc53f0e2e30381d69a.html#a98eb3b633829c4bc53f0e2e30381d69a) | | [ReadOuterXml](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a827a776cc6831921a4b77d558a990da6.html#a827a776cc6831921a4b77d558a990da6) | | [Skip](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a2e7911bffd406055956e9219502f7211.html#a2e7911bffd406055956e9219502f7211) | | [◆](#a7bb26d4ee9adab3b6d3917698e2d059f)Interface |  | | --- | | using [AK.Wwise::Plugin::V1::XmlReader::Interface](class_a_k_1_1_wwise_1_1_plugin_1_1_v1_1_1_xml_reader_a7bb26d4ee9adab3b6d3917698e2d059f.html#a7bb26d4ee9adab3b6d3917698e2d059f) = [CHostXml](namespace_a_k_1_1_wwise_1_1_plugin_1_1_v1_a074a0bfcc47a57a8a183590d1251f4bb.html#a074a0bfcc47a57a8a183590d1251f4bb) |  在文件 [HostXml.h](_host_xml_8h_source.html) 第 [532](_host_xml_8h_source.html#l00532) 行定义. |

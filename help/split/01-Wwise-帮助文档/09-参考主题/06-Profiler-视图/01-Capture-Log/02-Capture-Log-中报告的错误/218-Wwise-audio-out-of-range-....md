@@ -1,0 +1,9 @@
+# Wwise audio out of range ...
+
+[Wwise 帮助文档](../../../../00-Wwise-帮助文档.md) > [参考主题](../../../00-参考主题.md) > [Profiler 视图](../../00-Profiler-视图.md) > [Capture Log](../00-Capture-Log.md) > [Capture Log 中报告的错误](00-Capture-Log-中报告的错误.md) > Wwise audio out of range ...
+
+#### Wwise audio out of range ...
+
+此错误仅会在启用 [`AkInitSettings::bDebugOutOfRangeCheckEnabled`](https://www.audiokinetic.com/library/edge/?source=SDK&id=struct_ak_init_settings_a0ffc62cdbb07d0c8ebb2440fd177625b.html) 时出现。它表示内部进程生成的采样超出范围。在这种情况下，肯定存在内部漏洞。为此，请将整条消息提供给 Audiokinetic 技术支持部门。
+
+---

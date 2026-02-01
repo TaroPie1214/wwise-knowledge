@@ -1,0 +1,14 @@
+# AkMemTermForThread
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [AK](dir_82efb7d747620ecf0c13ab9b5d2ed63d.html)
+- [SoundEngine](dir_99a03347615d0b3a42409b24d959a474.html)
+- [Common](dir_d95da6bd1d27077206201426d7500a88.html)
+- [AkMemoryMgrModule.h](_ak_memory_mgr_module_8h.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [AK\_CRT\_ALLOCATOR\_SUPPORTED](_ak_memory_mgr_module_8h_aa979b5c3b17ccf0686b9b919fb13d48f.html#aa979b5c3b17ccf0686b9b919fb13d48f) | | [AK\_STOMP\_ALLOCATOR\_SUPPORTED](_ak_memory_mgr_module_8h_a6224438c55f276bf74224430ddd96986.html#a6224438c55f276bf74224430ddd96986) | | [AkMemDebugFree](_ak_memory_mgr_module_8h_aac6a537e02b9f4d99c0de1cba128f70c.html#aac6a537e02b9f4d99c0de1cba128f70c) | | [AkMemDebugMalign](_ak_memory_mgr_module_8h_a0007c7fcd5e73e862d2338123ec46d97.html#a0007c7fcd5e73e862d2338123ec46d97) | | [AkMemDebugMalloc](_ak_memory_mgr_module_8h_a868d7cb6a8696f0254f572959fa8058f.html#a868d7cb6a8696f0254f572959fa8058f) | | [AkMemDebugRealloc](_ak_memory_mgr_module_8h_ae82460c988c5e6eb441b905447fa8fc9.html#ae82460c988c5e6eb441b905447fa8fc9) | | [AkMemDebugReallocAligned](_ak_memory_mgr_module_8h_abea2c80bd6bfbcfd82ffcfe3ca3ffea4.html#abea2c80bd6bfbcfd82ffcfe3ca3ffea4) | | [AkMemFree](_ak_memory_mgr_module_8h_ac6982afe3d12d5af12af319d7c80d411.html#ac6982afe3d12d5af12af319d7c80d411) | | [AkMemInitForThread](_ak_memory_mgr_module_8h_a8eb2200ee7ce4f8fd9163c4ef920c660.html#a8eb2200ee7ce4f8fd9163c4ef920c660) | | [AkMemMalign](_ak_memory_mgr_module_8h_aee41c8e4dcb40ccf365164f92833520a.html#aee41c8e4dcb40ccf365164f92833520a) | | [AkMemMalloc](_ak_memory_mgr_module_8h_a029efc97dac467b5a32c05f5a98a0be9.html#a029efc97dac467b5a32c05f5a98a0be9) | | [AkMemoryMgrArena](_ak_memory_mgr_module_8h_a166fce11fcaf8c6c3ccaf6f00182dc4c.html#a166fce11fcaf8c6c3ccaf6f00182dc4c) | | [AkMemRealloc](_ak_memory_mgr_module_8h_a5953a53e49ecf87aa7b27c16d772d41a.html#a5953a53e49ecf87aa7b27c16d772d41a) | | [AkMemReallocAligned](_ak_memory_mgr_module_8h_a86749afaecf1e9e68d6f8a3b62499b87.html#a86749afaecf1e9e68d6f8a3b62499b87) | | [AkMemSizeOfMemory](_ak_memory_mgr_module_8h_a7226b7b4a72db37bae1e2c5e0998adf2.html#a7226b7b4a72db37bae1e2c5e0998adf2) | | [AkMemTermForThread](_ak_memory_mgr_module_8h_a382c6e27bfdb1ef0f86f27469242ff31.html#a382c6e27bfdb1ef0f86f27469242ff31) | | [AkMemTotalReservedMemorySize](_ak_memory_mgr_module_8h_ad18caa43a0995ec341bd0100d2424ac5.html#ad18caa43a0995ec341bd0100d2424ac5) | | [AkMemTrimForThread](_ak_memory_mgr_module_8h_a18902debaee9178ca56951d96c11cdee.html#a18902debaee9178ca56951d96c11cdee) | | [◆](#a382c6e27bfdb1ef0f86f27469242ff31)AkMemTermForThread |  | | --- | | typedef void( \* AkMemTermForThread) () |  在文件 [AkMemoryMgrModule.h](_ak_memory_mgr_module_8h_source.html) 第 [43](_ak_memory_mgr_module_8h_source.html#l00043) 行定义. |

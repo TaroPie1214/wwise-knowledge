@@ -1,0 +1,11 @@
+# ak_wwise_plugin_undo_event_v1
+
+|  |
+| --- |
+| Wwise SDK 2025.1.4 - Windows |
+
+- [ak\_wwise\_plugin\_undo\_event\_v1](structak__wwise__plugin__undo__event__v1.html)
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | [ak\_wwise\_plugin\_undo\_event\_v1](structak__wwise__plugin__undo__event__v1_a70137d46a71d6f61e4a99c7485da1768.html#a70137d46a71d6f61e4a99c7485da1768) | | [ak\_wwise\_plugin\_undo\_event\_v1](structak__wwise__plugin__undo__event__v1_a44484f5e56ee5e2e129ad5cb95a7f6b8.html#a44484f5e56ee5e2e129ad5cb95a7f6b8) | | [ak\_wwise\_plugin\_undo\_event\_v1](structak__wwise__plugin__undo__event__v1_a08dfc0758cb6db28709d0a4b96749083.html#a08dfc0758cb6db28709d0a4b96749083) | | [Destroy](structak__wwise__plugin__undo__event__v1_a2f2b99edecfefc7e16ceb490fbf68612.html#a2f2b99edecfefc7e16ceb490fbf68612) | | [GetName](structak__wwise__plugin__undo__event__v1_a7952f1fb84dd13dc967813feecd997b4.html#a7952f1fb84dd13dc967813feecd997b4) | | [Instance](structak__wwise__plugin__undo__event__v1_a2f3ddaf6257dcf06ca0c20ad1280c51a.html#a2f3ddaf6257dcf06ca0c20ad1280c51a) | | [Redo](structak__wwise__plugin__undo__event__v1_a496e6baf329670ea1e59773e7a59b472.html#a496e6baf329670ea1e59773e7a59b472) | | [Undo](structak__wwise__plugin__undo__event__v1_a7fa6a5518332aaadc42cacdacfbda754.html#a7fa6a5518332aaadc42cacdacfbda754) | | [◆](#a08dfc0758cb6db28709d0a4b96749083)ak\_wwise\_plugin\_undo\_event\_v1() [3/3] |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  |  |  | | --- | --- | --- | --- | | ak\_wwise\_plugin\_undo\_event\_v1::ak\_wwise\_plugin\_undo\_event\_v1 | ( | std::underlying\_type< decltype([m\_interface](structak__wwise__plugin__base__interface_a146b64003437eb7327201578ee814bc9.html#a146b64003437eb7327201578ee814bc9))>::type | *in\_interface*, | |  |  | decltype([m\_version](structak__wwise__plugin__base__interface_ab047f9139a14c6f03e396493c7dc6fb6.html#ab047f9139a14c6f03e396493c7dc6fb6)) | *in\_version* | |  | ) |  |  | | inline |  在文件 [HostUndoManager.h](_host_undo_manager_8h_source.html) 第 [60](_host_undo_manager_8h_source.html#l00060) 行定义. |
