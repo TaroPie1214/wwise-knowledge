@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
 Build a mapping from node titles to split file paths.
-This avoids needing to rebuild the full PageIndex.
+Scans ALL H1 titles in each split file (not just the first one).
+
+Usage:
+    python build_split_map.py --doc help
+    python build_split_map.py --doc sdk
+    python build_split_map.py --doc ue
+    python build_split_map.py --all
 """
 
 import json
@@ -24,97 +30,100 @@ def normalize_title(title: str) -> str:
     return title
 
 
-def extract_title_from_filename(filename: str) -> str:
-    """Extract title from split filename."""
-    # Remove number prefix and extension
-    name = re.sub(r'^\d+-', '', filename)
-    name = name.replace('.md', '')
-    # Replace hyphens with spaces
-    name = name.replace('-', ' ')
-    return name.lower()
-
-
-def build_split_map(split_dir: Path, relative_base: str = "") -> dict:
+def build_split_map(split_dir: Path) -> dict:
     """
     Recursively build a map of normalized titles to split paths.
+    Extracts ALL H1 titles from each file, not just the first one.
     """
     title_map = {}
     
-    for item in sorted(split_dir.iterdir()):
-        if item.is_dir():
-            # Recurse into subdirectory
-            sub_relative = f"{relative_base}/{item.name}" if relative_base else item.name
-            sub_map = build_split_map(item, sub_relative)
-            title_map.update(sub_map)
-        elif item.suffix == '.md':
-            # Extract title from file
-            relative_path = f"{relative_base}/{item.name}" if relative_base else item.name
+    for root, dirs, files in os.walk(split_dir):
+        # Sort for consistent ordering
+        dirs.sort()
+        files.sort()
+        
+        for filename in files:
+            if not filename.endswith('.md'):
+                continue
             
-            # Read first few lines to get actual title
+            full_path = Path(root) / filename
+            relative_path = full_path.relative_to(split_dir)
+            rel_path_str = str(relative_path)
+            
             try:
-                with open(item, 'r', encoding='utf-8') as f:
-                    lines = [f.readline() for _ in range(5)]
-                    for line in lines:
-                        line = line.strip()
-                        if line.startswith('#'):
-                            # Found title
-                            title = re.sub(r'^#+\s*', '', line)
-                            norm_title = normalize_title(title)
-                            title_map[norm_title] = relative_path
-                            break
+                with open(full_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # Find ALL H1 titles (lines starting with single #)
+                h1_titles = re.findall(r'^# (.+)$', content, re.MULTILINE)
+                
+                for title in h1_titles:
+                    norm_title = normalize_title(title)
+                    if norm_title and norm_title not in title_map:
+                        title_map[norm_title] = rel_path_str
+                
             except Exception as e:
-                print(f"Error reading {item}: {e}")
-            
-            # Also add filename-based title as fallback
-            filename_title = extract_title_from_filename(item.name)
-            if filename_title not in title_map:
-                title_map[filename_title] = relative_path
+                print(f"Error reading {full_path}: {e}")
     
     return title_map
 
 
-def main():
-    import argparse
-    
-    parser = argparse.ArgumentParser(description="Build split path mapping")
-    parser.add_argument("--doc", required=True, choices=["help", "sdk", "ue"])
-    
-    args = parser.parse_args()
-    
-    configs = {
-        "help": {
-            "split_dir": WORKSPACE / "help" / "split",
-            "output": WORKSPACE / "indexes" / "wwise_help_zh_split_map.json"
-        },
-        "sdk": {
-            "split_dir": WORKSPACE / "sdk" / "split", 
-            "output": WORKSPACE / "indexes" / "wwise_sdk_zh_split_map.json"
-        },
-        "ue": {
-            "split_dir": WORKSPACE / "ue" / "split",
-            "output": WORKSPACE / "indexes" / "wwise_ue_zh_split_map.json"
-        }
+CONFIGS = {
+    "help": {
+        "split_dir": WORKSPACE / "help" / "split",
+        "output": WORKSPACE / "indexes" / "wwise_help_zh_split_map.json"
+    },
+    "sdk": {
+        "split_dir": WORKSPACE / "sdk" / "split", 
+        "output": WORKSPACE / "indexes" / "wwise_sdk_zh_split_map.json"
+    },
+    "ue": {
+        "split_dir": WORKSPACE / "ue" / "split",
+        "output": WORKSPACE / "indexes" / "wwise_ue_zh_split_map.json"
     }
-    
-    config = configs[args.doc]
+}
+
+
+def build_for_doc(doc_id: str):
+    """Build split map for a single document."""
+    config = CONFIGS[doc_id]
     split_dir = config["split_dir"]
     output = config["output"]
     
     if not split_dir.exists():
-        print(f"Split directory not found: {split_dir}")
+        print(f"[{doc_id}] Split directory not found: {split_dir}")
         return
     
-    print(f"Building split map from {split_dir}...")
+    print(f"[{doc_id}] Scanning {split_dir}...")
     title_map = build_split_map(split_dir)
     
-    print(f"Found {len(title_map)} title -> path mappings")
+    print(f"[{doc_id}] Found {len(title_map)} title -> path mappings")
     
     # Save
     output.parent.mkdir(parents=True, exist_ok=True)
     with open(output, 'w', encoding='utf-8') as f:
         json.dump(title_map, f, ensure_ascii=False, indent=2)
     
-    print(f"Saved to {output}")
+    print(f"[{doc_id}] Saved to {output}")
+
+
+def main():
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Build split path mapping")
+    parser.add_argument("--doc", choices=["help", "sdk", "ue"], help="Build for specific doc")
+    parser.add_argument("--all", action="store_true", help="Build for all docs")
+    
+    args = parser.parse_args()
+    
+    if args.all:
+        for doc_id in CONFIGS:
+            build_for_doc(doc_id)
+            print()
+    elif args.doc:
+        build_for_doc(args.doc)
+    else:
+        parser.print_help()
 
 
 if __name__ == "__main__":
